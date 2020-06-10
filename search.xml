@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Blog-02</title>
-      <link href="/2020/06/10/Blog-02/"/>
-      <url>/2020/06/10/Blog-02/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>First Blog</title>
-      <link href="/2020/06/09/Blog-01/"/>
-      <url>/2020/06/09/Blog-01/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>这是我的第一篇博客，很高兴能与大家分享！</p></blockquote>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>First Blog</title>
+    <url>/2020/06/09/Blog-01/</url>
+    <content><![CDATA[<blockquote>
+<p>这是我的第一篇博客，很高兴能与大家分享！</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Blog-02</title>
+    <url>/2020/06/10/Blog-02/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
