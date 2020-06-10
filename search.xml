@@ -4,7 +4,7 @@
     <title>First Blog</title>
     <url>/2020/06/09/Blog-01/</url>
     <content><![CDATA[<blockquote>
-<p>这是我的第一篇博客，很高兴能与大家分享！一来向大家安利一个好东西👀，二来锻炼我的<strong>Markdown</strong>编辑能力。</p>
+<p>这是我的第一篇博客，很高兴能与大家分享！一来向大家安利一个好东西👀，二来锻炼我的<strong>Markdown</strong>编辑能力。<a id="more"></a></p>
 </blockquote>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -82,6 +82,10 @@
 <h2 id="·实现原理"><a href="#·实现原理" class="headerlink" title="·实现原理"></a>·实现原理</h2><p>　很深奥，很深奥。。。。。。（<del>其实我也我不知道</del>）</p>
 <p>&ensp;毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload复活版</strong>】等等，在各大电报群搜罗了一番在这里，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
 ]]></content>
+      <tags>
+        <tag>软件分享</tag>
+        <tag>百度</tag>
+      </tags>
   </entry>
   <entry>
     <title>Blog-02</title>
