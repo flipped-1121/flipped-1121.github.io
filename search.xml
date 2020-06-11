@@ -1,129 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>First Blog</title>
-    <url>/2020/06/09/Blog-01/</url>
-    <content><![CDATA[<blockquote>
-<p>这是我的第一篇博客，很高兴能与大家分享！一来向大家安利一个好东西👀，二来锻炼我的<strong>Markdown</strong>编辑能力。<a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="分享-·-毒盘不限速下载⚡⚡⚡"><a href="#分享-·-毒盘不限速下载⚡⚡⚡" class="headerlink" title="分享 · 毒盘不限速下载⚡⚡⚡"></a>分享 · 毒盘不限速下载⚡⚡⚡</h1><hr>
-<ul>
-<li><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2></li>
-</ul>
-<p>　　软件一款【<a href="https://wwa.lanzous.com/iDJ94dj59xe" target="_blank" rel="noopener"><strong>KinhDown免费版</strong></a>】</p>
-<p>　　浏览器插件一个【<a href="https://wwa.lanzous.com/izAZYdj8e1a" target="_blank" rel="noopener"><strong>网盘万能助手</strong></a>】</p>
-<p>　　脑子一个【<strong>🧠</strong>】</p>
-<hr>
-<ul>
-<li><h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><ul>
-<li><p>安装</p>
-<p>【<strong>KinhDown免费版</strong>】我更愿意叫它为“<strong>KinhDown绿色版</strong>”，因为该软件无需安装，双击即可运行。</p>
-<p>【<strong>网盘万能助手</strong>】插件的安装，这里以Microsoft Edge为例，打开浏览器。<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://wx1.sbimg.cn/2020/06/10/OVQX5GJVP81Z1842G5CP.png" alt="图1 设置及其他" title="">
-                </div>
-                <div class="image-caption">图1 设置及其他</div>
-            </figure></p>
-<p>&nbsp;</p>
-<p>确保打开“开发人员模式”。<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://wx2.sbimg.cn/2020/06/10/B00CP26HCYMOCWK3RFH.png" alt="图2 开发人员模式" title="">
-                </div>
-                <div class="image-caption">图2 开发人员模式</div>
-            </figure></p>
-<p>&nbsp;</p>
-<p>将下载好的【<strong>网盘万能助手 v2.3.2.zip</strong>】直接拖入浏览器面板。<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://wx1.sbimg.cn/2020/06/10/EZFWRL9X7IQL1BJFYB.png" alt="图3 拖放以安装" title="">
-                </div>
-                <div class="image-caption">图3 拖放以安装</div>
-            </figure></p>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><p>具体使用</p>
-<p>点击【<strong>网盘万能助手</strong>】扩展，并【<strong>启用当前UA</strong>】；</p>
-<p>打开毒盘文件分享链接，点击【<strong>下载助手</strong>】—&gt;【<strong>显示Aria链接</strong>】。<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://s1.ax1x.com/2020/06/10/t7JTQf.png" alt="图4 显示Aria链接" title="">
-                </div>
-                <div class="image-caption">图4 显示Aria链接</div>
-            </figure></p>
-<p>&nbsp;</p>
-<p>并【<strong>复制全部默认链接</strong>】，此时主角就要登场了，打开【<strong>KinhDown免费版</strong>】，将复制的链接粘贴进去并解析。<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://s1.ax1x.com/2020/06/10/t7tKCn.png" alt="t7tKCn.png" title="">
-                </div>
-                <div class="image-caption">t7tKCn.png</div>
-            </figure></p>
-<p>&nbsp;</p>
-<p>[<strong>注意</strong>]一定要在分享链接中复制<strong>Aria链接</strong>。🐷🐷🐷</p>
-<p><img src="https://s1.ax1x.com/2020/06/10/t7JDRx.png" alt=""></p>
-<p>&nbsp;</p>
-<p>奔放下载中。。。。。。（可以跑满带宽）<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
-</li>
-</ul>
-<hr>
-<h2 id="·实现原理"><a href="#·实现原理" class="headerlink" title="·实现原理"></a>·实现原理</h2><p>　很深奥，很深奥。。。。。。（<del>其实我也我不知道</del>）</p>
-<p>&ensp;毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
-]]></content>
-      <tags>
-        <tag>百度</tag>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDM多线程下载器</title>
-    <url>/2020/06/10/Blog-02/</url>
-    <content><![CDATA[<blockquote>
-<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM多线程下载器🌙🌙🌙</h1><hr>
-<p>在上一篇中出现了这张图：<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载" title="">
-                </div>
-                <div class="image-caption">IDM下载</div>
-            </figure></p>
-<p>&nbsp;</p>
-<p>在【<strong>KinhDown免费版</strong>】解析<strong>Aria链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
-<hr>
-<ul>
-<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows式”下一步“安装即可。</p>
-</li>
-<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包(解压密码：<strong>123</strong>)，右击Patch可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击IDM，若界面出现<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
-<hr>
-</li>
-</ul>
-<p>　　诚然，钱包鼓的话，可以去官网<a href="http://www.internetdownloadmanager.com" target="_blank" rel="noopener">http://www.internetdownloadmanager.com</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM最大支持<strong>32</strong>线程。至此，电脑上的下载任务，IDM就可以全局代理。</p>
-]]></content>
-      <tags>
-        <tag>分享</tag>
-        <tag>IDM</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>IDM多线程下载器</title>
+      <link href="/2020/06/10/Blog-02/"/>
+      <url>/2020/06/10/Blog-02/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>今天填上一篇的<strong>坑</strong><a id="more"></a></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM多线程下载器🌙🌙🌙</h1><hr><p>在上一篇中出现了这张图：<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载" title="">                </div>                <div class="image-caption">IDM下载</div>            </figure></p><p>&nbsp;</p><p>在【<strong>KinhDown免费版</strong>】解析<strong>Aria链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p><hr><ul><li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows式”下一步“安装即可。</p></li><li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包(解压密码：<strong>123</strong>)，右击Patch可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击IDM，若界面出现<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p><hr></li></ul><p>　　诚然，钱包鼓的话，可以去官网<a href="http://www.internetdownloadmanager.com" target="_blank" rel="noopener">http://www.internetdownloadmanager.com</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM最大支持<strong>32</strong>线程。至此，电脑上的下载任务，IDM就可以全局代理。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 分享 </tag>
+            
+            <tag> IDM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>First Blog</title>
+      <link href="/2020/06/09/Blog-01/"/>
+      <url>/2020/06/09/Blog-01/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是我的第一篇博客，很高兴能与大家分享！一来向大家安利一个好东西👀，二来锻炼我的<strong>Markdown</strong>编辑能力。<a id="more"></a></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><h1 id="分享-·-毒盘不限速下载⚡⚡⚡"><a href="#分享-·-毒盘不限速下载⚡⚡⚡" class="headerlink" title="分享 · 毒盘不限速下载⚡⚡⚡"></a>分享 · 毒盘不限速下载⚡⚡⚡</h1><hr><ul><li><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2></li></ul><p>　　软件一款【<a href="https://wwa.lanzous.com/iDJ94dj59xe" target="_blank" rel="noopener"><strong>KinhDown免费版</strong></a>】</p><p>　　浏览器插件一个【<a href="https://wwa.lanzous.com/izAZYdj8e1a" target="_blank" rel="noopener"><strong>网盘万能助手</strong></a>】</p><p>　　脑子一个【<strong>🧠</strong>】</p><hr><ul><li><h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><ul><li><p>安装</p><p>【<strong>KinhDown免费版</strong>】我更愿意叫它为“<strong>KinhDown绿色版</strong>”，因为该软件无需安装，双击即可运行。</p><p>【<strong>网盘万能助手</strong>】插件的安装，这里以Microsoft Edge为例，打开浏览器。<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://wx1.sbimg.cn/2020/06/10/OVQX5GJVP81Z1842G5CP.png" alt="图1 设置及其他" title="">                </div>                <div class="image-caption">图1 设置及其他</div>            </figure></p><p>&nbsp;</p><p>确保打开“开发人员模式”。<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://wx2.sbimg.cn/2020/06/10/B00CP26HCYMOCWK3RFH.png" alt="图2 开发人员模式" title="">                </div>                <div class="image-caption">图2 开发人员模式</div>            </figure></p><p>&nbsp;</p><p>将下载好的【<strong>网盘万能助手 v2.3.2.zip</strong>】直接拖入浏览器面板。<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://wx1.sbimg.cn/2020/06/10/EZFWRL9X7IQL1BJFYB.png" alt="图3 拖放以安装" title="">                </div>                <div class="image-caption">图3 拖放以安装</div>            </figure></p></li></ul></li></ul><ul><li><p>具体使用</p><p>点击【<strong>网盘万能助手</strong>】扩展，并【<strong>启用当前UA</strong>】；</p><p>打开毒盘文件分享链接，点击【<strong>下载助手</strong>】—&gt;【<strong>显示Aria链接</strong>】。<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://s1.ax1x.com/2020/06/10/t7JTQf.png" alt="图4 显示Aria链接" title="">                </div>                <div class="image-caption">图4 显示Aria链接</div>            </figure></p><p>&nbsp;</p><p>并【<strong>复制全部默认链接</strong>】，此时主角就要登场了，打开【<strong>KinhDown免费版</strong>】，将复制的链接粘贴进去并解析。<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://s1.ax1x.com/2020/06/10/t7tKCn.png" alt="t7tKCn.png" title="">                </div>                <div class="image-caption">t7tKCn.png</div>            </figure></p><p>&nbsp;</p><p>[<strong>注意</strong>]一定要在分享链接中复制<strong>Aria链接</strong>。🐷🐷🐷</p><p><img src="https://s1.ax1x.com/2020/06/10/t7JDRx.png" alt=""></p><p>&nbsp;</p><p>奔放下载中。。。。。。（可以跑满带宽）<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure></p></li></ul><hr><h2 id="·实现原理"><a href="#·实现原理" class="headerlink" title="·实现原理"></a>·实现原理</h2><p>　很深奥，很深奥。。。。。。（<del>其实我也我不知道</del>）</p><p>&ensp;毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 百度 </tag>
+            
+            <tag> 分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
