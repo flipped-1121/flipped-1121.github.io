@@ -88,8 +88,42 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog-02</title>
+    <title>IDM多线程下载器</title>
     <url>/2020/06/10/Blog-02/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<blockquote>
+<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM多线程下载器🌙🌙🌙</h1><hr>
+<p>在上一篇中出现了这张图：<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载" title="">
+                </div>
+                <div class="image-caption">IDM下载</div>
+            </figure></p>
+<p>&nbsp;</p>
+<p>在【<strong>KinhDown免费版</strong>】解析<strong>Aria链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
+<hr>
+<ul>
+<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows式”下一步“安装即可。</p>
+</li>
+<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包(解压密码：<strong>123</strong>)，右击Patch可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击IDM，若界面出现<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
+<hr>
+</li>
+</ul>
+<p>　　诚然，钱包鼓的话，可以去官网<a href="http://www.internetdownloadmanager.com" target="_blank" rel="noopener">http://www.internetdownloadmanager.com</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM最大支持<strong>32</strong>线程。至此，电脑上的下载任务，IDM就可以全局代理。</p>
+]]></content>
+      <tags>
+        <tag>分享</tag>
+        <tag>IDM</tag>
+      </tags>
   </entry>
 </search>
