@@ -2012,42 +2012,6 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
-.post-widgets {
-  border-top: 1px solid #eee;
-  padding-top: 9px;
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.post-widgets .post-meta-divider {
-  height: 28px;
-  color: #999;
-}
-.wp_rating {
-  height: 20px;
-  margin-right: 10px;
-  text-align: center;
-  line-height: 20px;
-  padding-top: 6px;
-}
-.social-like {
-  font-size: 14px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.vk_like {
-  width: 85px;
-  height: 21px;
-  padding-top: 7px;
-  align-self: center;
-}
-.fb_like {
-  height: 30px;
-  align-self: center;
-}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -2229,7 +2193,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #93b9cd;
+  background: #a4a46c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3949,6 +3913,24 @@ pre .javascript .function {
 
           
           
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.7miaoyu.com" title="七秒鱼" target="_blank">七秒鱼</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://io-oi.me/tech/hexo-next-optimization" title="个性化Hexo" target="_blank">个性化Hexo</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
 
           
 
@@ -3969,7 +3951,9 @@ pre .javascript .function {
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">© 2019 — <span itemprop="copyrightYear">2020</span>
+        <script async="" src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">© 2019 — <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-"></i>
   </span>
@@ -3996,23 +3980,16 @@ pre .javascript .function {
 
 
 
+	<!-- 不蒜子统计 -->
+    <span id="busuanzi_container_site_pv">
+          我的第<span id="busuanzi_value_site_pv"></span>位朋友
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv" style="display:none">
+           经历了<span id="busuanzi_value_site_uv"></span>次回眸才与你相遇
+    </span>
+    <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<div class="busuanzi-count">
-  <script async="" src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  <span class="site-uv">
-  <i class="fa fa-user"> 我的第</i>
-  <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-  位朋友
-  </span>
-
-  <span class="site-pv">
-  <i class="fa fa-eye"> 经历了</i>
-  <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-  次回眸才与你相遇
-  </span>
-
-</div>
         
 <div class="busuanzi-count">
   <script async="" src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -4649,7 +4626,7 @@ pre .javascript .function {
       }
     });
   ;
-AV.initialize("PfyUhH2LzcJibwOvJjgEXjHI-gzGzoHsz", "1x4QEnQYMSTW6C3U57yS9sQD");;
+AV.initialize("aHWv93OXxYa4v3N17Q2r0t1m-gzGzoHsz", "VVhgdSPbrk54nUVmOsIXP6gU");;
 
     function showTime(Counter) {
       var query = new AV.Query(Counter);
@@ -4666,7 +4643,7 @@ AV.initialize("PfyUhH2LzcJibwOvJjgEXjHI-gzGzoHsz", "1x4QEnQYMSTW6C3U57yS9sQD");;
           var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
 
           if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            $visitors.find(COUNT_CONTAINER_REF).text(0+"℃");
             return;
           }
 
@@ -4676,14 +4653,14 @@ AV.initialize("PfyUhH2LzcJibwOvJjgEXjHI-gzGzoHsz", "1x4QEnQYMSTW6C3U57yS9sQD");;
             var time = item.get('time');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(time+"℃");
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
             var element = document.getElementById(url);
             var countSpan = $(element).find(COUNT_CONTAINER_REF);
             if( countSpan.text() == '') {
-              countSpan.text(0);
+              countSpan.text(0+"℃");
             }
           }
         })
@@ -4708,7 +4685,7 @@ AV.initialize("PfyUhH2LzcJibwOvJjgEXjHI-gzGzoHsz", "1x4QEnQYMSTW6C3U57yS9sQD");;
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('time')+"℃");
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -4728,7 +4705,7 @@ AV.initialize("PfyUhH2LzcJibwOvJjgEXjHI-gzGzoHsz", "1x4QEnQYMSTW6C3U57yS9sQD");;
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time')+"℃");
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
