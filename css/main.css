@@ -1860,6 +1860,13 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -2308,7 +2315,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #58d0ff;
+  background: #ff958b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3578,7 +3585,7 @@ header.post-header {
   width: 0;
   border-radius: 3px;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.35);
-  background: url("https://s2.ax1x.com/2019/11/02/KLhDeA.th.jpg");
+  background: url("https://s1.ax1x.com/2020/06/17/NECLp4.png");
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 150px 150px;
