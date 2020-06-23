@@ -1,0 +1,161 @@
+/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,.3);
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,.3);
+}
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+
+
+
+/* 边框呼吸灯效果 */
+@keyframes link_custom {
+  from {
+    box-shadow: 0 0 5px var(--primary-color, grey),
+      inset 0 0 5px var(--primary-color, grey),
+      0 1px 0 var(--primary-color, grey);
+  }
+
+  to {
+    box-shadow: 0 0 20px var(--primary-color, grey),
+      inset 0 0 10px var(--primary-color, grey),
+      0 1px 0 var(--primary-color, grey);
+  }
+}
+/* 边框彩色呼吸灯 */
+@keyframes link_custom1 {
+  0% {
+    box-shadow: 0 0 4px #ca00ff;
+  }
+
+  25% {
+    box-shadow: 0 0 16px #00b5e5;
+  }
+
+  50% {
+    box-shadow: 0 0 4px #00f;
+  }
+
+  75% {
+    box-shadow: 0 0 16px #b1da21;
+  }
+
+  100% {
+    box-shadow: 0 0 4px #f00;
+  }
+}
+/* 边框闪烁 */
+@keyframes flash {
+  from {
+    border-color: transparent;
+  }
+
+  to {
+    border-color: var(--primary-color, grey);
+  }
+}
+/* 头像自动旋转 */
+@keyframes auto_rotate_left {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes auto_rotate_right {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flink#article-container .post-cards .md-links > .md-links-item a:hover {
+  color: #fff;
+}
+
+.flink .post-cards .md-links > .md-links-item a {
+  color: var(--primary-color, #49b1f5);
+  text-decoration: none;
+}
+
+.flink .post-cards .md-links > .md-links-item:hover {
+  box-shadow: 0 2px 20px var(--primary-color, #49b1f5);
+  animation-play-state: paused;
+}
+
+.flink#article-container .post-cards .md-links > .md-links-item:before {
+  background: var(--primary-color, #49b1f5);
+}
+
+.flink .post-cards .md-links > .md-links-item {
+  border: 0px solid var(--primary-color, #49b1f5);
+}
+.flink#article-container .post-cards .md-links > .md-links-item:hover img {
+  -webkit-transform: rotate(var(--primary-rotate));
+  -moz-transform: rotate(var(--primary-rotate));
+  -o-transform: rotate(var(--primary-rotate));
+  -ms-transform: rotate(var(--primary-rotate));
+  transform: rotate(var(--primary-rotate));
+}
+/* 头像自动旋转 */
+.flink#article-container .post-cards .md-links > .md-links-item a .lauto {
+  animation: auto_rotate_left var(--autotime) linear infinite;
+}
+.flink#article-container .post-cards .md-links > .md-links-item a .rauto {
+  animation: auto_rotate_right var(--autotime) linear infinite;
+}
+/* 友联字体颜色 */
+
+/* name与desc的颜色 */
+.flink#article-container .post-cards .md-links > .md-links-item .customcolor {
+  color: var(--namecolor, #1f2d3d);
+}
+/* name与des鼠标悬停的字体颜色 */
+.flink#article-container
+  .post-cards
+  .md-links
+  > .md-links-item
+  .customcolor:hover {
+  color: #fff;
+}
