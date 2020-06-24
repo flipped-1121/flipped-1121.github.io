@@ -1,62 +1,52 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kang's Blog - 爱分享，乐学习</title><meta name="description"><meta name="keywords" content="分享,学习"><meta name="author" content="Kang"><meta name="copyright" content="Kang"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://flipped-1121.github.io/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Kang's Blog"><meta property="og:url" content="https://flipped-1121.github.io/"><meta property="og:site_name" content="Kang's Blog"><meta property="og:description"><meta property="og:image" content="https://flipped-1121.github.io/img/avatar.png"><meta property="article:published_time" content="2020-06-24T04:19:47.329Z"><meta property="article:modified_time" content="2020-06-24T04:19:47.329Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
-  document.documentElement.setAttribute('data-theme', 'dark')
-  if (document.querySelector('meta[name="theme-color"]') !== null) {
-    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
-  }
-}
-var activateLightMode = function () {
-  document.documentElement.setAttribute('data-theme', 'light')
-  if (document.querySelector('meta[name="theme-color"]') !== null) {
-    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
-  }
-}
-
-var getCookies = function (name) {
-  const value = `; ${document.cookie}`
-  const parts = value.split(`; ${name}=`)
-  if (parts.length === 2) return parts.pop().split(';').shift()
-}
-
-var autoChangeMode = 'false'
-var t = getCookies('theme')
-if (autoChangeMode === '1') {
-  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
-  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kang's Blog - 爱分享，乐学习</title><meta name="description"><meta name="keywords" content="分享,学习"><meta name="author" content="Kang"><meta name="copyright" content="Kang"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Kang's Blog"><meta name="twitter:description"><meta name="twitter:image" content="https://flipped-1121.github.io/img/avatar.png"><meta property="og:type" content="website"><meta property="og:title" content="Kang's Blog"><meta property="og:url" content="https://flipped-1121.github.io/"><meta property="og:site_name" content="Kang's Blog"><meta property="og:description"><meta property="og:image" content="https://flipped-1121.github.io/img/avatar.png"><meta property="article:published_time" content="2020-06-24T05:13:45.317Z"><meta property="article:modified_time" content="2020-06-24T05:13:45.317Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
   var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
 
-  if (t === undefined) {
+  if (t === undefined){
     if (isLightMode) activateLightMode()
     else if (isDarkMode) activateDarkMode()
-    else if (isNotSpecified || hasNoSupport) {
+    else if (isNotSpecified || hasNoSupport){
       console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
       var now = new Date()
       var hour = now.getHours()
-      var isNight = hour <= 6 || hour >= 18
+      var isNight = hour < 6 || hour >= 18
       isNight ? activateDarkMode() : activateLightMode()
-    }
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-      if (Cookies.get('theme') === undefined) {
-        e.matches ? activateDarkMode() : activateLightMode()
-      }
-    })
-  } else if (t === 'light') activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
   else activateDarkMode()
-} else if (autoChangeMode === '2') {
-  now = new Date()
-  hour = now.getHours()
-  isNight = hour <= 6 || hour >= 18
-  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
   else if (t === 'light') activateLightMode()
-  else activateDarkMode()
+  else activateDarkMode() 
 } else {
-  if (t === 'dark') activateDarkMode()
-  else if (t === 'light') activateLightMode()
-}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://flipped-1121.github.io/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -67,35 +57,33 @@ if (autoChangeMode === '1') {
     message_next: '键将本页加入书签'
   },
   runtime_unit: '天',
-  runtime: false,
+  runtime: true,
   copyright: undefined,
   ClickShowText: undefined,
   medium_zoom: false,
   fancybox: true,
   Snackbar: undefined,
-  justifiedGallery: {
-    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
-    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
-  },
   baiduPush: false,
   highlightCopy: true,
   highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
   isPhotoFigcaption: false,
-  islazyload: true,
-  isanchor: false    
+  islazyload: false,
+  isanchor: false
+  
 }</script><script>var GLOBAL_CONFIG_SITE = { 
   isPost: false,
   isHome: true,
-  isHighlightShrink: false,
-  isSidebar: false
+  isSidebar: false  
   }</script><noscript><style>
-#nav {
+#page-header {
   opacity: 1
 }
 .justified-gallery img{
   opacity: 1
 }
-</style></noscript><meta name="generator" content="Hexo 4.2.1"><style>mjx-container[jax="SVG"] {
+</style></noscript><div class="aplayer" data-id="4968103795" data-server="netease" data-type="playlist" data-fixed="true" data-listFolded="false" data-order="random" data-preload="auto"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lete114/CDN/music/APlayer/APlayer.min.css"><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/music/APlayer/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><meta name="generator" content="Hexo 4.2.1"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -213,7 +201,7 @@ mjx-container + br {
   display: none;
 }
 </style><link rel="alternate" href="/atom.xml" title="Kang's Blog" type="application/atom+xml">
-</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Kang's Blog</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">Kang's Blog</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/20/Blog-06/" title="心想随记 (二)">心想随记 (二)</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-20 20:44:32"><i class="far fa-calendar-alt"></i>2020-06-20</time></div><div class="content">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 菜单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="full_page" id="nav" style="background-image: url(https://s1.ax1x.com/2020/06/23/NURfr4.png)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Kang's Blog</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 菜单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">Kang's Blog</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a><a class="social-icon" href="https://github.com/flipped-1121" target="_blank" title="github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:kangzhang51@gmail.com" target="_blank" title="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://twitter.com/Flipped25756150" target="_blank" title="twitter"><i class="fa fa-Twitter" aria-hidden="true"></i></a><a class="social-icon" href="https://www.youtube.com/channel/UC3BCZPn_pEEwEAXt9eJmxAw" target="_blank" title="youtube"><i class="fa fa-YouTube" aria-hidden="true"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=1&amp;uin=2517421382&amp;site=houdao.com&amp;menu=yes" target="_blank" title="qq"><i class="fa fa-QQ" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/20/Blog-06/" title="心想随记 (二)">心想随记 (二)</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-20 20:44:32"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-20</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E6%84%9F%E6%82%9F/">感悟</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%A3%81%E7%BA%B8/">壁纸</a></span></div><div class="content">
 二十岁，一个尴尬的年龄
 
 &nbsp;
@@ -227,23 +215,13 @@ mjx-container + br {
 永远不要以为自己有多了解一个人
 
 学会微笑
-</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/15/Blog-05/" title="800 字？手写？不可能！！！">800 字？手写？不可能！！！</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-15 20:27:58"><i class="far fa-calendar-alt"></i>2020-06-15</time></div><div class="content">
+</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/15/Blog-05/" title="800 字？手写？不可能！！！">800 字？手写？不可能！！！</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-15 20:27:58"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-15</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%88%86%E4%BA%AB/">分享</a></span></div><div class="content">
 小伙儿参加了学校的一个学时活动，原以为水水就过去了，报名后发现事实并没那么简单
 
 &nbsp;
 &nbsp;
 利用 Word 宏 实现手写效果
-背景2019 年 9 月，我第一次背上行囊离开生我养我的家乡，开启美好的大学生活，原以为高中老师嘴中那自由的新天地在向我疯狂招手，在得知【学时】制度 (大学四年一共要修满 240 个学时 ——&gt; 及格；400——&gt; 满分) 后，我宛如再次被 “囚禁” 的鸟儿，“什么，参加活动才有学时？！还计分？？🤬🤬🤬”，自此以后
-六月是我国的安全生产月，但由于疫情的影响，学时活动都只能在网上进行，原以为可以水水学时，但是但是但是
-&nbsp;
-开始操作【不少于 800 字】、【纸质扫描版】…… 让原本不富裕的家庭雪上加霜。要说科技改变生活，不无道理。
-懒人改变生活
-
-
-
-快速地打开百毒，优雅地输入 “手写体”，下载 ——&gt; 解压 ——&gt; 安装字体，兴致冲冲地打开 Word，嘴角疯狂上扬，就这？一番捣鼓后，800 多字的读后感完成了，但是又出现了问题
-
-再次操作写得太整齐了。办法总是有的，一顿操作后，在知乎上发现了前人栽的树 U ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/15/Blog-04/" title="心想随记 (一)">心想随记 (一)</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-15 00:01:24"><i class="far fa-calendar-alt"></i>2020-06-15</time></div><div class="content">
+背景2019 年 9 月，我第一次背上行囊离开生我养我的家乡，开启美好的大学生活，原以为高中老师嘴中那自由的新天地在向我疯狂招手，在得知【学时】制度 (大 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/15/Blog-04/" title="心想随记 (一)">心想随记 (一)</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-15 00:01:24"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-15</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E6%84%9F%E6%82%9F/">感悟</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%A3%81%E7%BA%B8/">壁纸</a></span></div><div class="content">
 夜深了，就容易多想🎈🎈🎈
 
 &nbsp;
@@ -259,7 +237,7 @@ mjx-container + br {
 看淡一些，好善一点
 
 不念过往，做好自己
-</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/12/Blog-03/" title="✏Java 笔记 ——IO 流📑">✏Java 笔记 ——IO 流📑</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-12 19:52:19"><i class="far fa-calendar-alt"></i>2020-06-12</time></div><div class="content">
+</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/12/Blog-03/" title="✏Java 笔记 ——IO 流📑">✏Java 笔记 ——IO 流📑</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-12 19:52:19"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-12</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/IO%E6%B5%81/">IO流</a></span></div><div class="content">
 Java 学习 ——IO 流🌦🌦🌦
 
 &nbsp;
@@ -267,11 +245,7 @@ Java 学习 ——IO 流🌦🌦🌦
 Tips什么是字节流？字节流 —— 传输过程中，传输数据的最基本单位是字节的流。
 什么是字符流？字符流 —— 传输过程中，传输数据的最基本单位是字符的流。
 
-字符编码方式不同，有时候一个字符使用的字节数也不一样，比如 ASCLL 方式编码的字符，占一个字节；而 UTF-8 方式编码的字符，一个英文字符需要一个字节，一个中文需要三个字节。
-字节数据是二进制形式的，要转成我们能识别的正常字符，需要选择正确的编码方式。我们生活中遇到的乱码问题就是字节数据没有选择正确的编码方式来显示成字符。
-从本质上来讲，写数据（即输出）的时候，字节也好，字符也好，本质上都是没有标识符的，需要去指定编码方式。
-但读数据的时候，如果我们需要去 “看数据”，那么字节流的数据需要指定字符编码方式，这样我们才能看到我们能识别的字符；而字符流，因为已经选择好了字符编码方式，通常不需要再改了（除非定义的字符编码方式与数据原有的编码方式不一致！）
-在传输方面上，由于计算机的传输本质都是字节，而一个字符由多个字节组成，转成字节之前先要去查表转成字节，所 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/10/Blog-02/" title="IDM 多线程下载器">IDM 多线程下载器</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-10 00:13:40"><i class="far fa-calendar-alt"></i>2020-06-10</time></div><div class="content">
+字符编码方式不同，有时候一个字符使用的字节数也不一样，比如 ASCL ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/10/Blog-02/" title="IDM 多线程下载器">IDM 多线程下载器</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-10 00:13:40"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-10</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%88%86%E4%BA%AB/">分享</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/IDM/">IDM</a></span></div><div class="content">
 今天填上一篇的坑
 
 &nbsp;
@@ -281,15 +255,7 @@ IDM 多线程下载器🌙🌙🌙
 &nbsp;
 在【KinhDown 免费版】解析 Aria 链接后，自动弹出并请求下载，对！就是这么简单。这就是大名鼎鼎的【IDM】(Internet Download Manager)
 
-
-安装下载，解压后安装，Windows 式” 下一步 “安装即可。
-
-破解Patches📂中解压与电脑操作系统位数对应的压缩包 (解压密码：123)，右击 Patch 可执行程序，以管理员身份运行，继续【next】。再次点击 IDM，若界面出现 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡
-
-
-
-　　诚然，钱包鼓的话，可以去官网 IDM 官网支持一下！那它为什么这么快呢？说白了就是【多线程】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【注】IDM 最大支持 32 线程。至此，电脑上的下载任务，IDM 就可以全局代理。
-</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/09/Blog-01/" title="First Blog">First Blog</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-09 23:04:52"><i class="far fa-calendar-alt"></i>2020-06-09</time></div><div class="content">
+ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/06/09/Blog-01/" title="First Blog">First Blog</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-09 23:04:52"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-09</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E7%99%BE%E5%BA%A6/">百度</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%88%86%E4%BA%AB/">分享</a></span></div><div class="content">
 这是我的第一篇博客，很高兴能与大家分享！一来向大家安利一个好东西👀，二来锻炼我的 Markdown 编辑能力。
 
 &nbsp;
@@ -301,34 +267,16 @@ IDM 多线程下载器🌙🌙🌙
 
 使用教程
 安装
-【KinhDown 免费版】我更愿意叫它为 “KinhDown 绿色版”，因为该软件无需安装，双击即可运行。
-【网盘万能助手】插件的安装，这里以 Microsoft Edge 为例，打开浏览器。
-&nbsp;
-确保打开 “开发人员模式”。
-&nbsp;
-将下载好的【网盘万能助手 v2.3.2.zip】直接拖入浏览器面板。
-
-
-
-具体使用
-点击【网盘万能助手】扩展，并【启用当前 UA】；
-打开毒盘文件分享链接，点击【下载助手】—&gt;【显示 Aria 链接】。
-&nbsp;
-并【复制全部默认链接】，此时主角就要登场了，打开【KinhDown 免费版】，将复制的链接粘贴进去并解析。
-&nbsp;
-[注意] 一定要在分享链接中复制 Aria 链接。🐷🐷🐷
-
-&nbsp;
-奔放下载中。。。。 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Kang</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">6</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">7</div></a></div></div><div class="card-info-bookmark is-center"><button class="button--animated" id="bookmark-it" title="加入书签"><i class="fas fa-bookmark"></i><span>加入书签</span></button></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2020/06/20/Blog-06/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/20/Blog-06/" title="心想随记 (二)">心想随记 (二)</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-20 20:44:32">2020-06-20</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/15/Blog-05/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/15/Blog-05/" title="800 字？手写？不可能！！！">800 字？手写？不可能！！！</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-15 20:27:58">2020-06-15</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/15/Blog-04/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/15/Blog-04/" title="心想随记 (一)">心想随记 (一)</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-15 00:01:24">2020-06-15</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/12/Blog-03/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/12/Blog-03/" title="✏Java 笔记 ——IO 流📑">✏Java 笔记 ——IO 流📑</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-12 19:52:19">2020-06-12</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/10/Blog-02/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/10/Blog-02/" title="IDM 多线程下载器">IDM 多线程下载器</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-10 00:13:40">2020-06-10</time></div></a></div></div></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/IDM/" style="font-size: 16px; color: #999">IDM</a> <a href="/tags/IO%E6%B5%81/" style="font-size: 16px; color: #999">IO流</a> <a href="/tags/Java/" style="font-size: 16px; color: #999">Java</a> <a href="/tags/%E5%88%86%E4%BA%AB/" style="font-size: 22px; color: #99a9bf">分享</a> <a href="/tags/%E5%A3%81%E7%BA%B8/" style="font-size: 19px; color: #99a1ac">壁纸</a> <a href="/tags/%E6%84%9F%E6%82%9F/" style="font-size: 19px; color: #99a1ac">感悟</a> <a href="/tags/%E7%99%BE%E5%BA%A6/" style="font-size: 16px; color: #999">百度</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><span class="card-archive-list-count">6</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">6</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Kang</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><button class="translate_chn_to_cht" id="translateLink" title="简繁转换">繁</button><button id="darkmode" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
- <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
+ ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Kang</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">6</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">7</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a><a class="social-icon" href="https://github.com/flipped-1121" target="_blank" title="github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:kangzhang51@gmail.com" target="_blank" title="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://twitter.com/Flipped25756150" target="_blank" title="twitter"><i class="fa fa-Twitter" aria-hidden="true"></i></a><a class="social-icon" href="https://www.youtube.com/channel/UC3BCZPn_pEEwEAXt9eJmxAw" target="_blank" title="youtube"><i class="fa fa-YouTube" aria-hidden="true"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=1&amp;uin=2517421382&amp;site=houdao.com&amp;menu=yes" target="_blank" title="qq"><i class="fa fa-QQ" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">This is my Blog<img src="https://c-ssl.duitang.com/uploads/blog/201505/01/20150501124924_NE23h.gif"></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2020/06/20/Blog-06/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/20/Blog-06/" title="心想随记 (二)">心想随记 (二)</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-20 20:44:32">2020-06-20</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/15/Blog-05/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/15/Blog-05/" title="800 字？手写？不可能！！！">800 字？手写？不可能！！！</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-15 20:27:58">2020-06-15</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/15/Blog-04/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/15/Blog-04/" title="心想随记 (一)">心想随记 (一)</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-15 00:01:24">2020-06-15</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/12/Blog-03/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/12/Blog-03/" title="✏Java 笔记 ——IO 流📑">✏Java 笔记 ——IO 流📑</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-12 19:52:19">2020-06-12</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/10/Blog-02/"><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/10/Blog-02/" title="IDM 多线程下载器">IDM 多线程下载器</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-10 00:13:40">2020-06-10</time></div></a></div></div></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href='/tags/IDM/' style='font-size:20px; color:rgb(148, 89, 53)'>IDM</a><a href='/tags/IO%E6%B5%81/' style='font-size:17px; color:rgb(174, 54, 99)'>IO流</a><a href='/tags/Java/' style='font-size:16px; color:rgb(193, 42, 57)'>Java</a><a href='/tags/%E5%88%86%E4%BA%AB/' style='font-size:17px; color:rgb(25, 75, 23)'>分享</a><a href='/tags/%E5%A3%81%E7%BA%B8/' style='font-size:21px; color:rgb(20, 70, 116)'>壁纸</a><a href='/tags/%E6%84%9F%E6%82%9F/' style='font-size:19px; color:rgb(184, 70, 34)'>感悟</a><a href='/tags/%E7%99%BE%E5%BA%A6/' style='font-size:20px; color:rgb(190, 49, 81)'>百度</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><span class="card-archive-list-count">6</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">6</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="6/7/2018 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://s1.ax1x.com/2020/06/23/NURfr4.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> Kang</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">面朝大海，春暖花开</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">简</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@3/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
 if (subtitleEffect) { 
   var typed = new Typed("#subtitle", {
-    strings: "今日事&#44;今日畢,Never put off till tomorrow what you can do today".split(","),
+    strings: '面朝大海&#44;春暖花开,Never put off till tomorrow what you can do today'.split(","),
     startDelay: 300,
     typeSpeed: 150,
-    loop: true,
+    loop: false,
     backSpeed: 50
   })
 } else {
-  document.getElementById("subtitle").innerHTML = '今日事&#44;今日畢'
-}</script></body></html>
+  document.getElementById("subtitle").innerHTML = '面朝大海&#44;春暖花开'
+}</script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script><script src="js/video.js"></script></body></html>

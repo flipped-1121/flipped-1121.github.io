@@ -1,6 +1,6 @@
 $(function () {
   const isSnackbar = GLOBAL_CONFIG.Snackbar !== undefined
-  const $nav = $('#nav')
+  const $pageHead = $('#page-header')
   const $rightside = $('#rightside')
   const $body = $('body')
 
@@ -16,9 +16,9 @@ $(function () {
   function isAdjust (n) {
     var t
     if (n === 1) {
-      t = blogNameWidth + menusWidth > $nav.width() - sidebarWidth - 20
+      t = blogNameWidth + menusWidth > $pageHead.width() - sidebarWidth - 20
     } else if (n === 2) {
-      t = blogNameWidth + menusWidth > $nav.width() - 20
+      t = blogNameWidth + menusWidth > $pageHead.width() - 20
     }
 
     if (t) headerAdjust()
@@ -26,15 +26,15 @@ $(function () {
   }
 
   function headerAdjust () {
-    $nav.find('.toggle-menu').addClass('is-visible-inline')
-    $nav.find('.menus_items').addClass('is-invisible')
-    $nav.find('#search_button span').addClass('is-invisible')
+    $pageHead.find('.toggle-menu').addClass('is-visible-inline')
+    $pageHead.find('.menus_items').addClass('is_invisible')
+    $pageHead.find('#search_button span').addClass('is_invisible')
   }
 
   function headerAdjustBack () {
-    $nav.find('.toggle-menu').removeClass('is-visible-inline')
-    $nav.find('.menus_items').removeClass('is-invisible')
-    $nav.find('#search_button span').removeClass('is-invisible')
+    $pageHead.find('.toggle-menu').removeClass('is-visible-inline')
+    $pageHead.find('.menus_items').removeClass('is_invisible')
+    $pageHead.find('#search_button span').removeClass('is_invisible')
   }
 
   // 初始化header
@@ -44,15 +44,25 @@ $(function () {
   }
 
   initAjust()
-  $('#nav').css({ opacity: '1', animation: 'headerNoOpacity 1s' })
+  $('#page-header').css({ opacity: '1', animation: 'headerNoOpacity 1s' })
 
   $(window).on('resize', function () {
-    if ($('#sidebar').hasClass('tocOpenPc') && $nav.hasClass('fixed')) {
+    if ($('#sidebar').hasClass('tocOpenPc') && $pageHead.hasClass('fixed')) {
       isAdjust(1)
     } else {
       initAjust()
     }
   })
+
+  /**
+   * windows時 設置主頁top_img 為 fixed
+   */
+  if (GLOBAL_CONFIG_SITE.isHome) {
+    var isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent)
+    if (!isSafari && isDesktop()) {
+      $('#nav').css('background-attachment', 'fixed')
+    }
+  }
 
   /**
    * 進入post頁sidebar處理
@@ -107,7 +117,7 @@ $(function () {
       opacity: '1'
     })
     var isAdjustTimeCount = window.setInterval(function () {
-      if ($nav.hasClass('fixed')) isAdjust(1)
+      if ($pageHead.hasClass('fixed')) isAdjust(1)
       else isAdjust(2)
     }, 100)
     setTimeout(function () {
@@ -211,7 +221,7 @@ $(function () {
    * 首頁top_img底下的箭頭
    */
   $('#scroll_down').on('click', function () {
-    scrollToDest('#content-inner')
+    scrollTo('#content-inner')
   })
 
   /**
@@ -244,51 +254,50 @@ $(function () {
   if ($figureHighlight.length) {
     const isHighlightCopy = GLOBAL_CONFIG.highlightCopy
     const isHighlightLang = GLOBAL_CONFIG.highlightLang
-    const isHighlightShrink = GLOBAL_CONFIG_SITE.isHighlightShrink
+    const isHighlightShrink = GLOBAL_CONFIG.highlightShrink
 
-    if (isHighlightCopy || isHighlightLang || isHighlightShrink !== undefined) {
-      $figureHighlight.prepend('<div class="highlight-tools"></div>')
+    if (isHighlightCopy || isHighlightLang || isHighlightShrink !== 'none') {
+      $figureHighlight.wrap('<div class="code-area-wrap"></div>').before('<div class="highlight-tools"></div>')
     }
 
     /**
    * 代碼收縮
    */
     const $highlightTools = $('.highlight-tools')
-    if (isHighlightShrink === true) {
-      $highlightTools.append('<i class="fas fa-angle-down code-expand code-closed"></i>')
-    } else if (isHighlightShrink === false) {
-      $highlightTools.append('<i class="fas fa-angle-down code-expand"></i>')
+    if (isHighlightShrink === 'true') {
+      $highlightTools.append('<i class="fa fa-angle-down code-expand code-closed" aria-hidden="true"></i>')
+    } else if (isHighlightShrink === 'false') {
+      $highlightTools.append('<i class="fa fa-angle-down code-expand" aria-hidden="true"></i>')
     }
 
     $(document).on('click', '.highlight-tools >.code-expand', function () {
-      var $hideItem = $(this).parent().nextAll()
+      var $table = $(this).parent().next()
       if ($(this).hasClass('code-closed')) {
-        $hideItem.css('display', 'block')
+        $table.css('display', 'block')
         $(this).removeClass('code-closed')
       } else {
-        $hideItem.css('display', 'none')
+        $table.css('display', 'none')
         $(this).addClass('code-closed')
       }
     })
 
     /**
     * 代碼語言
-    */
+  */
     if (isHighlightLang) {
       var langNameIndex, langName
       $figureHighlight.each(function () {
         langNameIndex = langName = $(this).attr('class').split(' ')[1]
         if (langNameIndex === 'plain') langName = 'Code'
-        $(this).find('.highlight-tools').append('<div class="code-lang">' + langName + '</div>')
+        $(this).prev().append('<div class="code-lang">' + langName + '</div>')
       })
     }
-
     /**
-    * 代碼copy
-    * copy function
-    */
+   * 代碼copy
+   * copy function
+   */
     if (isHighlightCopy) {
-      $highlightTools.append('<div class="copy-notice"></div><i class="fas fa-paste copy-button"></i>')
+      $highlightTools.append('<div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i>')
       var copy = function (text, ctx) {
         if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
           try {
@@ -299,11 +308,13 @@ $(function () {
               $(ctx).prev('.copy-notice')
                 .text(GLOBAL_CONFIG.copy.success)
                 .animate({
-                  opacity: 1
+                  opacity: 1,
+                  right: 30
                 }, 450, function () {
                   setTimeout(function () {
                     $(ctx).prev('.copy-notice').animate({
-                      opacity: 0
+                      opacity: 0,
+                      right: 0
                     }, 650)
                   }, 400)
                 })
@@ -315,11 +326,13 @@ $(function () {
               $(ctx).prev('.copy-notice')
                 .text(GLOBAL_CONFIG.copy.error)
                 .animate({
-                  opacity: 1
+                  opacity: 1,
+                  right: 30
                 }, 650, function () {
                   setTimeout(function () {
                     $(ctx).prev('.copy-notice').animate({
-                      opacity: 0
+                      opacity: 0,
+                      right: 0
                     }, 650)
                   }, 400)
                 })
@@ -336,18 +349,15 @@ $(function () {
       }
 
       // click events
-      $(document).on('click', '.highlight-tools>.copy-button', function () {
-        var $buttonParent = $(this).parents('figure.highlight')
-        $buttonParent.addClass('copy-true')
+      $(document).on('click', '.highlight-tools>.fa-clipboard', function () {
         var selection = window.getSelection()
         var range = document.createRange()
-        range.selectNodeContents($buttonParent.find('table .code pre')[0])
+        range.selectNodeContents($(this).parent().next().find('.code pre')[0])
         selection.removeAllRanges()
         selection.addRange(range)
         var text = selection.toString()
         copy(text, this)
         selection.removeAllRanges()
-        $buttonParent.removeClass('copy-true')
       })
     }
   }
@@ -356,7 +366,7 @@ $(function () {
  * PhotoFigcaption
  */
   function addPhotoFigcaption () {
-    const images = $('#article-container img').not('.justified-gallery img')
+    var images = $('#article-container img')
     images.each(function (i, o) {
       var $this = $(o)
       if ($this.attr('alt')) {
@@ -382,8 +392,8 @@ $(function () {
         $(o).wrap('<div></div>')
       })
     }
-    $('head').append(`<link rel="stylesheet" type="text/css" href="${GLOBAL_CONFIG.justifiedGallery.css}">`)
-    loadScript(`${GLOBAL_CONFIG.justifiedGallery.js}`, function () {
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css">')
+    loadScript('https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js', function () {
       initJustifiedGallery($justifiedGallery)
     })
 
@@ -409,7 +419,13 @@ $(function () {
     var images = $('#article-container img:not(.gallery-group-img)').not($('a>img'))
     images.each(function (i, o) {
       var lazyloadSrc = $(o).attr('data-src') ? $(o).attr('data-src') : $(o).attr('src')
-      $(o).wrap(`<a href="${lazyloadSrc}" data-fancybox="group" data-caption="${$(o).attr('alt')}" class="fancybox"></a>`)
+      $(o).wrap(
+        '<a href="' +
+        lazyloadSrc +
+        '" data-fancybox="group" data-caption="' +
+        $(o).attr('alt') +
+        '" class="fancybox"></a>'
+      )
     })
 
     $().fancybox({
@@ -430,40 +446,36 @@ $(function () {
   }
 
   /**
+   * lazyload
+   */
+  if (GLOBAL_CONFIG.islazyload) {
+    window.lozad('img').observe()
+  }
+
+  /**
    * 滾動處理
    */
   var initTop = 0
-  var isChatShow = true
-  var isChatBtnHide = typeof chatBtnHide === 'function'
-  var isChatBtnShow = typeof chatBtnShow === 'function'
-  $(window).scroll(throttle(function (event) {
+  $(window).scroll(function (event) {
     var currentTop = $(this).scrollTop()
-    var isDown = scrollDirection(currentTop)
+    var isUp = scrollDirection(currentTop)
     if (currentTop > 56) {
-      if (isDown) {
-        if ($nav.hasClass('visible')) $nav.removeClass('visible')
-        if (isChatBtnShow && isChatShow === true) {
-          chatBtnHide()
-          isChatShow = false
-        }
+      if (isUp) {
+        if ($pageHead.hasClass('visible')) $pageHead.removeClass('visible')
       } else {
-        if (!$nav.hasClass('visible')) $nav.addClass('visible')
-        if (isChatBtnHide && isChatShow === false) {
-          window.chatBtnShow()
-          isChatShow = true
-        }
+        if (!$pageHead.hasClass('visible')) $pageHead.addClass('visible')
       }
-      $nav.addClass('fixed')
+      $pageHead.addClass('fixed')
       if ($rightside.css('opacity') === '0') {
         $rightside.css({ opacity: '1', transform: 'translateX(-38px)' })
       }
     } else {
       if (currentTop === 0) {
-        $nav.removeClass('fixed').removeClass('visible')
+        $pageHead.removeClass('fixed').removeClass('visible')
       }
       $rightside.css({ opacity: '', transform: '' })
     }
-  }, 200))
+  })
 
   // find the scroll direction
   function scrollDirection (currentTop) {
@@ -476,7 +488,7 @@ $(function () {
    * 點擊滾回頂部
    */
   $('#go-up').on('click', function () {
-    scrollToDest('body')
+    scrollTo('body')
   })
 
   /**
@@ -500,7 +512,7 @@ $(function () {
         closeMobileSidebar('toc')
       } else {
         e.preventDefault()
-        scrollToDest($(this).attr('href'))
+        scrollTo($(this).attr('href'))
       }
     })
 
@@ -631,7 +643,7 @@ $(function () {
   })
 
   $(window).on('touchmove', function (e) {
-    var $menusChild = $('#nav .menus_item_child')
+    var $menusChild = $('#page-header .menus_item_child')
     if ($menusChild.is(':visible')) {
       $menusChild.css('display', 'none')
     }
@@ -677,16 +689,31 @@ $(function () {
   /**
    * Darkmode
    */
+  var isFontAwesomeV5 = GLOBAL_CONFIG.isFontAwesomeV5
   var $darkModeButtom = $('#darkmode')
+  if (typeof autoChangeMode !== 'undefined') {
+    document.documentElement.getAttribute('data-theme') === 'dark' ? changeLightIcon() : changeDarkIcon()
+  }
+
+  function changeLightIcon () {
+    isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-moon').addClass('fa-sun') : $darkModeButtom.removeClass('fa-moon-o').addClass('fa-sun-o')
+  }
+
+  function changeDarkIcon () {
+    isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-sun').addClass('fa-moon') : $darkModeButtom.removeClass('fa-sun-o').addClass('fa-moon-o')
+  }
+
   function switchReadMode () {
     var nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
     if (nowMode === 'light') {
+      changeLightIcon()
       activateDarkMode()
-      Cookies.set('theme', 'dark', 2)
+      Cookies.set('theme', 'dark', { expires: 2 })
       if (isSnackbar) snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
     } else {
+      changeDarkIcon()
       activateLightMode()
-      Cookies.set('theme', 'light', 2)
+      Cookies.set('theme', 'light', { expires: 2 })
       if (isSnackbar) snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)
     }
   }
@@ -702,7 +729,7 @@ $(function () {
   if (GLOBAL_CONFIG.runtime) {
     // get user config
     var $runtimeCount = $('#webinfo-runtime-count')
-    var startDate = $runtimeCount.attr('publish_date')
+    var startDate = $runtimeCount.attr('start_date')
     var showDateTime = function () {
       var BirthDay = new Date(startDate)
       var today = new Date()
@@ -715,15 +742,6 @@ $(function () {
     clearInterval(interval)
     interval = setInterval(showDateTime, 10000)
   }
-
-  /**
-   * table overflow
-   */
-
-  var $table = $('#article-container table').not($('figure.highlight > table'))
-  $table.each(function () {
-    $(this).wrap('<div class="table-wrap"></div>')
-  })
 
   /**
    * 百度推送
@@ -748,6 +766,7 @@ $(function () {
   var $hideInline = $('.hide-button')
   if ($hideInline.length) {
     $hideInline.on('click', function (e) {
+      e.preventDefault()
       var $this = $(this)
       var $hideContent = $(this).next('.hide-content')
       $this.toggleClass('open')
@@ -759,33 +778,4 @@ $(function () {
       }
     })
   }
-
-  const $tab = $('#article-container .tabs')
-  $tab.find('.tab button').on('click', function (e) {
-    const $this = $(this)
-    const $tabItem = $this.parent()
-
-    if (!$tabItem.hasClass('active')) {
-      const $tacbContent = $this.parents('.nav-tabs').next()
-      $tabItem.siblings('.active').removeClass('active')
-      $tabItem.addClass('active')
-      const tabId = $this.attr('data-href')
-      $tacbContent.find('> .tab-item-content').removeClass('active')
-      $tacbContent.find(`> ${tabId}`).addClass('active')
-      const $isTabJustifiedGallery = $tacbContent.find(tabId).find('.justified-gallery')
-      if (isJustifiedGallery && $isTabJustifiedGallery.length > 0) {
-        initJustifiedGallery($isTabJustifiedGallery)
-      }
-    }
-  })
-
-  var $cardCategory = $('.card-category-list-item.parent a')
-  $cardCategory.on('click', function (e) {
-    if ($(event.target).hasClass('card-category-list-icon')) {
-      var $this = $(this)
-      $this.find('.card-category-list-icon').toggleClass('expand')
-      $this.parent().next().toggle()
-      return false
-    }
-  })
 })
