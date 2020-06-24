@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>IDM 多线程下载器</title>
-    <url>/2020/06/10/Blog-02/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
-<p>在上一篇中出现了这张图：<img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载"></p>
-<p>&nbsp;</p>
-<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
-<hr>
-<ul>
-<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
-</li>
-<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt=""> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
-<hr>
-</li>
-</ul>
-<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" target="_blank" rel="noopener" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
-]]></content>
-      <tags>
-        <tag>分享</tag>
-        <tag>IDM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>First Blog</title>
     <url>/2020/06/09/Blog-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -68,8 +41,8 @@
 <p> 毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload 复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
 ]]></content>
       <tags>
-        <tag>分享</tag>
         <tag>百度</tag>
+        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +110,33 @@
 ]]></content>
       <tags>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDM 多线程下载器</title>
+    <url>/2020/06/10/Blog-02/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
+<p>在上一篇中出现了这张图：<img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载"></p>
+<p>&nbsp;</p>
+<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
+<hr>
+<ul>
+<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
+</li>
+<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt=""> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
+<hr>
+</li>
+</ul>
+<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" target="_blank" rel="noopener" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
+]]></content>
+      <tags>
+        <tag>分享</tag>
+        <tag>IDM</tag>
       </tags>
   </entry>
   <entry>
