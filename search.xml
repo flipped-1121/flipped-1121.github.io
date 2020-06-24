@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>心想随记 (一)</title>
-    <url>/2020/06/15/Blog-04/</url>
+    <title>IDM 多线程下载器</title>
+    <url>/2020/06/10/Blog-02/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>夜深了，就容易多想🎈🎈🎈<a id="more"></a></p>
+<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
 </blockquote>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h1 id="可以回头看，别往回走"><a href="#可以回头看，别往回走" class="headerlink" title="可以回头看，别往回走"></a>可以回头看，别往回走</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppYff.jpg" alt="NppYff.jpg"></p>
+<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
+<p>在上一篇中出现了这张图：<img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载"></p>
+<p>&nbsp;</p>
+<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
 <hr>
-<h1 id="删除心灵的垃圾，每天刷新自己，这样才能重获新生！"><a href="#删除心灵的垃圾，每天刷新自己，这样才能重获新生！" class="headerlink" title="删除心灵的垃圾，每天刷新自己，这样才能重获新生！"></a>删除心灵的垃圾，每天刷新自己，这样才能重获新生！</h1><p><img src="https://s1.ax1x.com/2020/06/15/Npp0mj.jpg" alt="Npp0mj.jpg"></p>
+<ul>
+<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
+</li>
+<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt=""> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
 <hr>
-<h1 id="对过去，要淡；对现在，要惜；对未来，要信。"><a href="#对过去，要淡；对现在，要惜；对未来，要信。" class="headerlink" title="对过去，要淡；对现在，要惜；对未来，要信。"></a>对过去，要淡；对现在，要惜；对未来，要信。</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppU1S.jpg" alt="NppU1S.jpg"></p>
-<hr>
-<h1 id="活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。"><a href="#活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。" class="headerlink" title="活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。"></a>活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppdXQ.png" alt="NppdXQ.png"></p>
-<hr>
-<h1 id="看淡一些，好善一点"><a href="#看淡一些，好善一点" class="headerlink" title="看淡一些，好善一点"></a>看淡一些，好善一点</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppNp8.png" alt="NppNp8.png"></p>
-<hr>
-<h1 id="不念过往，做好自己"><a href="#不念过往，做好自己" class="headerlink" title="不念过往，做好自己"></a>不念过往，做好自己</h1><p><img src="https://s1.ax1x.com/2020/06/15/Nppa6g.png" alt="Nppa6g.png"></p>
+</li>
+</ul>
+<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" target="_blank" rel="noopener" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
 ]]></content>
       <tags>
-        <tag>感悟</tag>
-        <tag>壁纸</tag>
+        <tag>分享</tag>
+        <tag>IDM</tag>
       </tags>
   </entry>
   <entry>
@@ -66,35 +68,33 @@
 <p> 毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload 复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
 ]]></content>
       <tags>
-        <tag>百度</tag>
         <tag>分享</tag>
+        <tag>百度</tag>
       </tags>
   </entry>
   <entry>
-    <title>IDM 多线程下载器</title>
-    <url>/2020/06/10/Blog-02/</url>
+    <title>心想随记 (一)</title>
+    <url>/2020/06/15/Blog-04/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
+<p>夜深了，就容易多想🎈🎈🎈<a id="more"></a></p>
 </blockquote>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
-<p>在上一篇中出现了这张图：<img src="https://s1.ax1x.com/2020/06/10/t7NhFJ.png" alt="IDM下载"></p>
-<p>&nbsp;</p>
-<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji" target="_blank" rel="noopener"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
+<h1 id="可以回头看，别往回走"><a href="#可以回头看，别往回走" class="headerlink" title="可以回头看，别往回走"></a>可以回头看，别往回走</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppYff.jpg" alt="NppYff.jpg"></p>
 <hr>
-<ul>
-<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
-</li>
-<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://s1.ax1x.com/2020/06/12/tq73xH.png" alt=""> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
+<h1 id="删除心灵的垃圾，每天刷新自己，这样才能重获新生！"><a href="#删除心灵的垃圾，每天刷新自己，这样才能重获新生！" class="headerlink" title="删除心灵的垃圾，每天刷新自己，这样才能重获新生！"></a>删除心灵的垃圾，每天刷新自己，这样才能重获新生！</h1><p><img src="https://s1.ax1x.com/2020/06/15/Npp0mj.jpg" alt="Npp0mj.jpg"></p>
 <hr>
-</li>
-</ul>
-<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" target="_blank" rel="noopener" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
+<h1 id="对过去，要淡；对现在，要惜；对未来，要信。"><a href="#对过去，要淡；对现在，要惜；对未来，要信。" class="headerlink" title="对过去，要淡；对现在，要惜；对未来，要信。"></a>对过去，要淡；对现在，要惜；对未来，要信。</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppU1S.jpg" alt="NppU1S.jpg"></p>
+<hr>
+<h1 id="活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。"><a href="#活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。" class="headerlink" title="活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。"></a>活得简单不难，只需懂得为自己而活，为美好而生，为幸福而做。</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppdXQ.png" alt="NppdXQ.png"></p>
+<hr>
+<h1 id="看淡一些，好善一点"><a href="#看淡一些，好善一点" class="headerlink" title="看淡一些，好善一点"></a>看淡一些，好善一点</h1><p><img src="https://s1.ax1x.com/2020/06/15/NppNp8.png" alt="NppNp8.png"></p>
+<hr>
+<h1 id="不念过往，做好自己"><a href="#不念过往，做好自己" class="headerlink" title="不念过往，做好自己"></a>不念过往，做好自己</h1><p><img src="https://s1.ax1x.com/2020/06/15/Nppa6g.png" alt="Nppa6g.png"></p>
 ]]></content>
       <tags>
-        <tag>分享</tag>
-        <tag>IDM</tag>
+        <tag>感悟</tag>
+        <tag>壁纸</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +137,29 @@
 ]]></content>
       <tags>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>心想随记 (二)</title>
+    <url>/2020/06/20/Blog-06/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>二十岁，一个尴尬的年龄<a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="又到了做什么都是一个人的年龄"><a href="#又到了做什么都是一个人的年龄" class="headerlink" title="又到了做什么都是一个人的年龄"></a><strong>又到了做什么都是一个人的年龄</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1VOHI.jpg" alt="N1VOHI.jpg"></p>
+<hr>
+<h1 id="在错误的时间遇到自以为对的人"><a href="#在错误的时间遇到自以为对的人" class="headerlink" title="在错误的时间遇到自以为对的人"></a><strong>在错误的时间遇到自以为对的人</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1ZN8O.png" alt="N1ZN8O.png"></p>
+<hr>
+<h1 id="不要太认真，会输得很惨"><a href="#不要太认真，会输得很惨" class="headerlink" title="不要太认真，会输得很惨"></a><strong>不要太认真，会输得很惨</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1ZU2D.png" alt="N1ZU2D.png"></p>
+<hr>
+<h1 id="永远不要以为自己有多了解一个人"><a href="#永远不要以为自己有多了解一个人" class="headerlink" title="永远不要以为自己有多了解一个人"></a><strong>永远不要以为自己有多了解一个人</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1Z0rd.png" alt="N1Z0rd.png"></p>
+<hr>
+<h1 id="学会微笑"><a href="#学会微笑" class="headerlink" title="学会微笑"></a><strong>学会微笑</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1Z2RS.png" alt="N1Z2RS.png"></p>
+]]></content>
+      <tags>
+        <tag>感悟</tag>
+        <tag>壁纸</tag>
       </tags>
   </entry>
   <entry>
@@ -308,29 +331,6 @@
       <tags>
         <tag>Java</tag>
         <tag>IO流</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>心想随记 (二)</title>
-    <url>/2020/06/20/Blog-06/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>二十岁，一个尴尬的年龄<a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="又到了做什么都是一个人的年龄"><a href="#又到了做什么都是一个人的年龄" class="headerlink" title="又到了做什么都是一个人的年龄"></a><strong>又到了做什么都是一个人的年龄</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1VOHI.jpg" alt="N1VOHI.jpg"></p>
-<hr>
-<h1 id="在错误的时间遇到自以为对的人"><a href="#在错误的时间遇到自以为对的人" class="headerlink" title="在错误的时间遇到自以为对的人"></a><strong>在错误的时间遇到自以为对的人</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1ZN8O.png" alt="N1ZN8O.png"></p>
-<hr>
-<h1 id="不要太认真，会输得很惨"><a href="#不要太认真，会输得很惨" class="headerlink" title="不要太认真，会输得很惨"></a><strong>不要太认真，会输得很惨</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1ZU2D.png" alt="N1ZU2D.png"></p>
-<hr>
-<h1 id="永远不要以为自己有多了解一个人"><a href="#永远不要以为自己有多了解一个人" class="headerlink" title="永远不要以为自己有多了解一个人"></a><strong>永远不要以为自己有多了解一个人</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1Z0rd.png" alt="N1Z0rd.png"></p>
-<hr>
-<h1 id="学会微笑"><a href="#学会微笑" class="headerlink" title="学会微笑"></a><strong>学会微笑</strong></h1><p><img src="https://s1.ax1x.com/2020/06/20/N1Z2RS.png" alt="N1Z2RS.png"></p>
-]]></content>
-      <tags>
-        <tag>感悟</tag>
-        <tag>壁纸</tag>
       </tags>
   </entry>
 </search>
