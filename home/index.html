@@ -1,0 +1,459 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script> 
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kang">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="Kang's Blog,Kang的博客,康的博客,博客,Kang's Blog主站,Hexo,个性博客,简约博客,程序员,Blog,Android,编程">
+    <meta name="description " content="爱分享，乐学习">
+    <title>Kang's Blog</title>
+    <!-- 本页面并没有对移动端做什么优化，可能体验会很差！ -->
+    <!-- 引入资源文件 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Kang">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flipped-1121/home/css/kanghome.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flipped-1121/home/css/layout.css" type="text/css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flipped-1121/home/css/mdui_bess.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bessyjl/cdn@2.0/css/APlayer.min.css">
+    <div id="aplayer"></div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bessyjl/cdn@2.0/js/APlayer.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/flipped-1121/home/js/music1.js"></script>
+    <script data-ad-client="ca-pub-1837014247459400" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-158964841-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158964841-1');
+    </script>
+<style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container {
+  overflow: auto hidden;
+}
+
+mjx-container + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="Kang's Blog" type="application/atom+xml">
+
+
+<header class="panel-cover" id="top_bess">
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+
+            <!-- 梅花树枝，可以删除 -->
+            <!--<div class="meiha"></div>-->
+
+            <!-- 灯笼1 -->
+            <!--
+            <div class="deng-box">
+              <div class="deng">
+                <div class="xian"></div>
+                <div class="deng-a">
+                  <div class="deng-b"><div class="deng-t">节</div></div>
+                </div>
+                <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+              </div>
+            </div>
+            -->
+            <!-- 灯笼2 -->
+            <!--
+            <div class="deng-box1">
+              <div class="deng">
+                <div class="xian"></div>
+                <div class="deng-a">
+                  <div class="deng-b"><div class="deng-t">春</div></div>
+                </div>
+                <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+              </div>
+            </div>
+            -->
+            <div class="middle">
+                <h1 class="label">面朝大海，春暖花开</h1>
+                <!--<div class="time">
+                    <span>
+                    <div id="d">
+                        00
+                    </div>
+                    天 </span> <span>
+                    <div id="h">
+                        00
+                    </div>
+                    小时 </span> <span>
+                    <div id="m">
+                        00
+                    </div>
+                    分钟 </span> <span>
+                    <div id="s">
+                        00
+                    </div>
+                    秒 </span>
+                </div>
+                -->
+                <!--<h1 class="label_speech">元旦快乐！</h1>-->
+            </div>
+
+            <div class="panel-main__content">
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://home.kangblogs.top" target="_blank" rel="noopener" title="link to homepage">Kang's Blog</a>
+                </h1>
+                <hr class="panel-cover__divider">
+                <p class="panel-cover__description">
+                    AI <font color="red">NI </font>
+                </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary">
+                <a target="blank" href="https://github.com/flipped-1121"><img src="https://img.shields.io/badge/GitHub-Follow-brightgreen" alt="GitHub"></a>
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="https://kangblogs.top" title="" class="blog-button" target="_blank">博客</a></li>
+                            <li class="navigation__item"><a href="https://kangblogs.top/about" title="" class="" target="_blank">简历</a></li>
+                            <li class="navigation__item"><a href="https://kangblogs.top/link" title="" class="" target="_blank">友链</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="cover-navigation navigation--social">
+                        <ul class="navigation">
+                            <!-- Github -->
+                            <li class="navigation__item">
+                                <a href="https://github.com/flipped-1121" title="Kang on GitHub" target="_blank">
+                                    <img src="https://52bess.com/assets/img/github-logo.png" width="21px" height="21px">
+                                    <span class="label"> GitHub</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- 原来的备案信息的位置 -->
+
+        </div>
+    </div>
+    
+</header>
+
+<div class="mdui-container-fluid mdui-color-cyan-50" id="mdui_bess">
+    <div class=".mdui-col-xs-12 .mdui-col-sm-12 .mdui-col-md-12 .mdui-col-lg-12 .mdui-col-xl-12">
+        <div class="mdui-typo-display-3">
+            你好，朋友！
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui_bess_card">
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">简历</div>
+                                <div class="mdui-card-primary-subtitle">基于 Vue 的动画简历</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle1'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle1">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://resume.52bess.com/public" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">海螺图床</div>
+                                <div class="mdui-card-primary-subtitle">基于阿里云服务的稳定图床</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle2'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle2">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://img.52bess.com" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">BessCloud</div>
+                                <div class="mdui-card-primary-subtitle">可能是最萌的云计算服务商</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle3'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle3">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://besscloud.cf" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">海螺短网址</div>
+                                <div class="mdui-card-primary-subtitle">稳定的短网址服务</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle4'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle4">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://t.besscloud.workers.dev/" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">海螺文件库</div>
+                                <div class="mdui-card-primary-subtitle">编程类学习资料集合</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle5'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle5">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://mirrors.gitgitgo.tech/" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdui-col-xl-6 mdui-col-xs-6 mdui-col-sm-4 mdui-col-xs-3">
+                <div class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img src="https://ae01.alicdn.com/kf/He743295647a04d579369e5c4d49d041fa.jpg">
+                        <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">Kang 的博客</div>
+                                <div class="mdui-card-primary-subtitle">康的博客</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#exampleNoTitle6'}">去看看
+                        </button>
+
+                        <div class="mdui-dialog" id="exampleNoTitle6">
+                            <div class="mdui-dialog-content">准备好跳转了吗？</div>
+                            <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-ripple" mdui-dialog-close="">我再想想</button>
+                                <a href="https://kangblogs.top/" target="_blank">
+                                    <button class="mdui-btn mdui-ripple" mdui-dialog-confirm="">是的</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="beian">
+        <a href="https://52bess.com" rel="external nofollow" target="_blank"><img src="https://img.shields.io/badge/%C2%A92020-Kang-brightgreen" alt=""></a>
+        <a href="http://www.beian.miit.gov.cn/" rel="external nofollow" target="_blank"><img src="https://img.shields.io/badge/萌ICP备2020520134-MediumVioletRed" alt="备案信息"></a>
+    </div>
+
+</div>
+<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<!-- js -->
+<!-- <script type="text/javascript" src="assets/js/snowflake.js"></script> -->
+<!--<script type="text/javascript" src="assets/js/snowfall.js"></script>-->
+<!--<script type="text/javascript" src="assets/js/countdown.js"></script>-->
+<!-- 统计代码 -->
+<!--<div style="display: none;">
+    <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1278022666&web_id=1278022666">
+    </script>
+</div>-->
+
+
+ 
