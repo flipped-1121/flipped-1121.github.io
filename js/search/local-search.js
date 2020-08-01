@@ -45,7 +45,7 @@ $(function () {
   function search(path) {
     $.ajax({
       //url: GLOBAL_CONFIG.root + path,
-      url: "https://cdn.jsdelivr.net/gh/flipped-1121/flipped-1121.github.io/search.xml"
+      url: "https://cdn.jsdelivr.net/gh/flipped-1121/flipped-1121.github.io/search.xml",
       dataType: 'xml',
       success: function (xmlResponse) {
         // get the contents from search data
