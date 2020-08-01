@@ -14,7 +14,7 @@ $(function () {
     }
 
     // shortcut: ESC
-    document.addEventListener('keydown', function f (event) {
+    document.addEventListener('keydown', function f(event) {
       if (event.code === 'Escape') {
         closeSearch()
         document.removeEventListener('keydown', f)
@@ -42,9 +42,10 @@ $(function () {
   }
   $('.search-mask, .search-close-button').on('click touchstart', closeSearch)
 
-  function search (path) {
+  function search(path) {
     $.ajax({
-      url: GLOBAL_CONFIG.root + path,
+      //url: GLOBAL_CONFIG.root + path,
+      url: "https://cdn.jsdelivr.net/gh/flipped-1121/flipped-1121.github.io/search.xml"
       dataType: 'xml',
       success: function (xmlResponse) {
         // get the contents from search data
