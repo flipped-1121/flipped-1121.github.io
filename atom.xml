@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://flipped-1121.github.io/"/>
-  <updated>2020-08-04T14:14:49.000Z</updated>
+  <updated>2020-08-04T14:41:52.000Z</updated>
   <id>https://flipped-1121.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端学习（六）</title>
+    <link href="https://flipped-1121.github.io/2020/08/04/Blog-12/"/>
+    <id>https://flipped-1121.github.io/2020/08/04/Blog-12/</id>
+    <published>2020-08-04T14:41:52.000Z</published>
+    <updated>2020-08-04T14:41:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>记录前端学习<a id="more"></a></p></blockquote><h1 id="学习之路-·-CSS-01"><a href="#学习之路-·-CSS-01" class="headerlink" title="学习之路  ·  CSS-01"></a>学习之路・CSS-01</h1><h2 id="好久不见"><a href="#好久不见" class="headerlink" title="好久不见"></a>好久不见</h2><p>本着 “博客想写就写” 的原则（<del>其实就是懒</del>），终于点开了<code>_posts</code> 文件夹。</p><p>因本人习惯，笔记在 WebStorm 呈现</p><figure class="highlight"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="selector-tag">DOCTYPE</span> <span class="selector-tag">html</span>&gt;</span><br><span class="line">&lt;html lang="zh-CN"&gt;</span><br><span class="line">&lt;<span class="selector-tag">head</span>&gt;</span><br><span class="line">    &lt;meta charset="UTF-8"&gt;</span><br><span class="line">    &lt;title&gt;CSS&lt;/title&gt;</span><br><span class="line">    &lt;<span class="selector-tag">style</span>&gt;</span><br><span class="line">        <span class="selector-tag">p2</span> {</span><br><span class="line">            <span class="attribute">color</span>: cadetblue;</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">        <span class="selector-tag">p3</span> {</span><br><span class="line">            <span class="attribute">font-size</span>: <span class="number">26px</span>;</span><br><span class="line">        }</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;<span class="selector-tag">body</span>&gt;</span><br><span class="line">&lt;p1&gt;CSS&lt;/p1&gt;</span><br><span class="line">&lt;<span class="selector-tag">br</span>&gt;</span><br><span class="line">&lt;p2&gt;CSS改变字体颜色&lt;/p2&gt;</span><br><span class="line">&lt;<span class="selector-tag">br</span>&gt;</span><br><span class="line">&lt;p3&gt;CSS改变字体大小&lt;/p3&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></tbody></table></figure><h1 id="学习成果"><a href="#学习成果" class="headerlink" title="学习成果"></a>学习成果</h1><ul><li>初步认识 CSS（美化 HTML）</li><li><code>style</code>标签</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;记录前端学习
+    
+    </summary>
+    
+    
+    
+      <category term="前端" scheme="https://flipped-1121.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>前端学习（五）</title>
