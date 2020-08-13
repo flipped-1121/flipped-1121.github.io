@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>IDM 多线程下载器</title>
-    <url>/2020/06/11/Blog-02/</url>
-    <content><![CDATA[<blockquote>
-<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
-<p>在上一篇中出现了这张图：<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/t7NhFJ.png" alt="IDM下载"></p>
-<p>&nbsp;</p>
-<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
-<hr>
-<ul>
-<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
-</li>
-<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/tq73xH.png"> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
-<hr>
-</li>
-</ul>
-<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
-]]></content>
-      <tags>
-        <tag>分享</tag>
-        <tag>IDM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>First Blog</title>
     <url>/2020/06/09/Blog-01/</url>
     <content><![CDATA[<blockquote>
@@ -68,8 +41,35 @@
 <p> 毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload 复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
 ]]></content>
       <tags>
-        <tag>分享</tag>
         <tag>百度</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDM 多线程下载器</title>
+    <url>/2020/06/11/Blog-02/</url>
+    <content><![CDATA[<blockquote>
+<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
+<p>在上一篇中出现了这张图：<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/t7NhFJ.png" alt="IDM下载"></p>
+<p>&nbsp;</p>
+<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
+<hr>
+<ul>
+<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
+</li>
+<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/tq73xH.png"> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
+<hr>
+</li>
+</ul>
+<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
+]]></content>
+      <tags>
+        <tag>分享</tag>
+        <tag>IDM</tag>
       </tags>
   </entry>
   <entry>
@@ -394,11 +394,11 @@ $(document).ready(function(){
 <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>今天在谷歌上逛博客时，突然发现 <code>shen-yu</code> 大佬根据 <code>chatjs</code> 写了一个 Hexo 插件，出于兴趣，打算使用并记录该插件的效果。<br><code>shen-yu</code> 大佬 <a class="btn-beautify button--animated green larger" href="https://shen-yu.gitee.io/2020/chartjs/" title="shen-yu"><i class="far fa-hand-point-right fa-fw"></i><span>shen-yu</span></a><br><code>chatjs</code> 中文文档 <a class="btn-beautify button--animated blue larger" href="https://chartjs.bootcss.com/docs/getting-started/installation.html" title="chatjs"><i class="far fa-hand-point-right fa-fw"></i><span>chatjs</span></a><br>由于插件的安装和图表的使用上面两个链接已介绍得足够详细，本人只做一些图表的演示，并充当一个函数，实现代码的复用 (手动狗头)。</p>
 <hr>
 <h1 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h1><h2 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h2><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7790" style="height: 300px"></canvas>
+    <canvas id="chart3218" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7790').getContext('2d');
+    var ctx = document.getElementById('chart3218').getContext('2d');
     var options =  {
     type: 'line',
     data: { 
@@ -568,11 +568,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><h3 id="效果·垂直柱状图"><a href="#效果·垂直柱状图" class="headerlink" title="效果·垂直柱状图"></a>效果・垂直柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4933" style="height: 300px"></canvas>
+    <canvas id="chart7476" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4933').getContext('2d');
+    var ctx = document.getElementById('chart7476').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
@@ -602,11 +602,11 @@ $(document).ready(function(){
 <h3 id="示例用法·垂直柱状图"><a href="#示例用法·垂直柱状图" class="headerlink" title="示例用法·垂直柱状图"></a>示例用法・垂直柱状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"bar",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["January","February","March","April","May","June","July"],</span><br><span class="line">        "datasets":[{</span><br><span class="line">        "label":"My First Dataset",</span><br><span class="line">        "data":[65,59,80,81,56,55,40],</span><br><span class="line">        "fill":false,</span><br><span class="line">        "backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],</span><br><span class="line">        "borderColor":["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],</span><br><span class="line">        "borderWidth":1</span><br><span class="line">                     }]</span><br><span class="line">            },</span><br><span class="line">    "options":{</span><br><span class="line">        "scales":{</span><br><span class="line">            "yAxes":[{</span><br><span class="line">                "ticks":{</span><br><span class="line">                    "beginAtZero":true</span><br><span class="line">                        }</span><br><span class="line">                    }]</span><br><span class="line">               }</span><br><span class="line">            }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="效果·水平柱状图"><a href="#效果·水平柱状图" class="headerlink" title="效果·水平柱状图"></a>效果・水平柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8619" style="height: 300px"></canvas>
+    <canvas id="chart3175" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8619').getContext('2d');
+    var ctx = document.getElementById('chart3175').getContext('2d');
     var options = {
     "type":"horizontalBar",
     "data":{
@@ -698,11 +698,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h2><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8172" style="height: 300px"></canvas>
+    <canvas id="chart8315" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8172').getContext('2d');
+    var ctx = document.getElementById('chart8315').getContext('2d');
     var options = {
     "type":"radar",
     "data":{
@@ -858,11 +858,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="环状-饼状图"><a href="#环状-饼状图" class="headerlink" title="环状/饼状图"></a>环状 / 饼状图</h2><h3 id="效果·环状图"><a href="#效果·环状图" class="headerlink" title="效果·环状图"></a>效果・环状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7166" style="height: 300px"></canvas>
+    <canvas id="chart3133" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7166').getContext('2d');
+    var ctx = document.getElementById('chart3133').getContext('2d');
     var options = {
     "type":"doughnut",
     "data":{
@@ -881,11 +881,11 @@ $(document).ready(function(){
 
 <h3 id="示例用法·环状图"><a href="#示例用法·环状图" class="headerlink" title="示例用法·环状图"></a>示例用法・环状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"doughnut",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["Red","Blue","Yellow"],</span><br><span class="line">        "datasets":[</span><br><span class="line">            {</span><br><span class="line">                "label":"My First Dataset",</span><br><span class="line">                "data":[300,50,100],</span><br><span class="line">                "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]</span><br><span class="line">            }</span><br><span class="line">        ]</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="效果·饼状图"><a href="#效果·饼状图" class="headerlink" title="效果·饼状图"></a>效果・饼状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4857" style="height: 300px"></canvas>
+    <canvas id="chart6995" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4857').getContext('2d');
+    var ctx = document.getElementById('chart6995').getContext('2d');
     var options = {
     "type":"pie",
     "data":{
@@ -996,11 +996,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="极地图"><a href="#极地图" class="headerlink" title="极地图"></a>极地图</h2><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8572" style="height: 300px"></canvas>
+    <canvas id="chart5396" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8572').getContext('2d');
+    var ctx = document.getElementById('chart5396').getContext('2d');
     var options = {
     "type":"polarArea",
     "data":{
@@ -1068,11 +1068,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="气泡图"><a href="#气泡图" class="headerlink" title="气泡图"></a>气泡图</h2><h3 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8983" style="height: 300px"></canvas>
+    <canvas id="chart3548" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8983').getContext('2d');
+    var ctx = document.getElementById('chart3548').getContext('2d');
     var options = {
     "type":"bubble",
     "data":{
@@ -1224,11 +1224,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><h3 id="效果-4"><a href="#效果-4" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7760" style="height: 300px"></canvas>
+    <canvas id="chart1013" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7760').getContext('2d');
+    var ctx = document.getElementById('chart1013').getContext('2d');
     var options = {
     type:'scatter',
     data:{
@@ -1403,11 +1403,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="区域图"><a href="#区域图" class="headerlink" title="区域图"></a>区域图</h2><h3 id="效果-5"><a href="#效果-5" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5211" style="height: 300px"></canvas>
+    <canvas id="chart6791" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5211').getContext('2d');
+    var ctx = document.getElementById('chart6791').getContext('2d');
     var options = {                
     "type":"line",
     "data":{
@@ -1461,11 +1461,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="混合图表"><a href="#混合图表" class="headerlink" title="混合图表"></a>混合图表</h2><h3 id="效果-6"><a href="#效果-6" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1979" style="height: 300px"></canvas>
+    <canvas id="chart2981" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1979').getContext('2d');
+    var ctx = document.getElementById('chart2981').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
