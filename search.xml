@@ -73,6 +73,50 @@
       </tags>
   </entry>
   <entry>
+    <title>800 字？手写？不可能！！！</title>
+    <url>/2020/06/20/Blog-05/</url>
+    <content><![CDATA[<blockquote>
+<p><font face="Aa榴莲爸爸" size="5">小伙儿参加了学校的一个学时活动，原以为水水就过去了，报名后发现事实并没那么简单</font><a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="利用Word-宏-实现手写效果"><a href="#利用Word-宏-实现手写效果" class="headerlink" title="利用Word 宏 实现手写效果"></a>利用 Word<font face="Aa榴莲爸爸" size="13"> 宏 </font>实现手写效果</h1><hr>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>2019 年 9 月，我第一次背上行囊离开生我养我的家乡，开启<del>美好</del>的大学生活，原以为高中老师嘴中那自由的新天地在向我疯狂招手，在得知【<strong>学时</strong>】制度 (大学四年一共要修满 240 个学时 ——&gt; 及格；400——&gt; 满分) 后，我宛如再次被 “囚禁” 的鸟儿，“什么，参加活动才有学时？！还计分？？🤬🤬🤬”，自此以后<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NCO09U.jpg" alt="学时"></p>
+<p>六月是我国的安全生产月，但由于疫情的影响，学时活动都只能在网上进行，原以为可以水水学时，<font color="red">但是</font><font color="red" size="5">但是</font><font color="red" size="7">但是</font><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NCjNWT.png" alt="800字"></p>
+<p>&nbsp;</p>
+<h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><p>【<strong>不少于 800 字</strong>】、【<strong>纸质扫描版</strong>】…… 让原本不富裕的家庭雪上加霜。要说科技改变生活，不无道理。</p>
+<details><summary><mark><font color="darkred"></font></mark></summary><font size="8"><center>懒人改变生活</center></font></details>
+
+<div align="center"><img src="https://s1.ax1x.com/2020/06/15/NPSKNn.jpg" width="20%" height="20%"></div>
+
+<p>快速地打开百毒，优雅地输入 “手写体”，下载 ——&gt; 解压 ——&gt; 安装字体，兴致冲冲地打开 Word，嘴角疯狂上扬，就这？一番捣鼓后，800 多字的读后感完成了，但是又出现了问题<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPF8jx.png" alt="NPF8jx.png"></p>
+<hr>
+<h1 id="再次操作"><a href="#再次操作" class="headerlink" title="再次操作"></a>再次操作</h1><p>写得太整齐了。办法总是有的，一顿操作后，在知乎上发现了前人栽的树</p>
+<a class="btn-beautify button--animated block center blue larger" href="https://www.zhihu.com/question/20308770/answer/241699602" title="UncleSugar的回答"><i class="far fa-hand-point-right fa-fw"></i><span>UncleSugar 的回答</span></a>
+
+<p>通过 “<strong>UncleSugar</strong>” 大佬的方法完成 “<strong>手写 800 字</strong>” 任务，附上最终成品 [一张]。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPAfcn.png" alt="NPAfcn.png"></p>
+<p>我一共下载了三款字体【** <a href="http://fonts.mobanwang.com/showsoftdown.asp?urlid=1&amp;softid=13232">陈静的字完整版</a><strong>】、【</strong><a href="http://www.zitiweb.com/fonts/%E8%90%8C%E5%A6%B9%E5%AD%90%E5%AD%97%E4%BD%93.ttf">萌妹子字体</a><strong>】、【</strong><a href="http://js.xiazaicc.com/down3/lgfsxt_downcc.com.zip">李国夫手写字体</a> **】。也可以根据自己的需要和喜好去下载，字体相似度越高越好。</p>
+<hr>
+<h1 id="疯狂操作"><a href="#疯狂操作" class="headerlink" title="疯狂操作"></a>疯狂操作</h1><p>打开 Word，【<strong>左下角 “选项”</strong>】——&gt;【<strong>左侧 “信任中心”</strong>】——&gt;【<strong>信任中心设置</strong>】——&gt; 勾选【<strong>启用所有宏</strong>】</p>
+<p><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPejPO.png" alt="NPejPO.png"></p>
+<p>&nbsp;</p>
+<p>创建宏<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPmkIf.png" alt="NPmkIf.png"></p>
+<p>删除自动生成的代码</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Sub 字体修改()</span><br><span class="line">'</span><br><span class="line">' 字体修改 宏</span><br><span class="line">'</span><br><span class="line">'</span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></tbody></table></figure>
+
+<p>添加代码</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Sub 字体修改()</span><br><span class="line">'</span><br><span class="line">' 字体修改 宏</span><br><span class="line">'</span><br><span class="line">    Dim R_Character As Range</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Dim FontSize(5)</span><br><span class="line">    ' 字体大小在5个值之间进行波动，可以改写</span><br><span class="line">    FontSize(1) = "21"</span><br><span class="line">    FontSize(2) = "21.5"</span><br><span class="line">    FontSize(3) = "22"</span><br><span class="line">    FontSize(4) = "22.5"</span><br><span class="line">    FontSize(5) = "23"</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Dim FontName(3)</span><br><span class="line">    '字体名称在三种字体之间进行波动，可改写，但需要保证系统拥有下列字体</span><br><span class="line">    FontName(1) = "陈静的字完整版"</span><br><span class="line">    FontName(2) = "萌妹子体"</span><br><span class="line">    FontName(3) = "liguofu"</span><br><span class="line"></span><br><span class="line">    Dim ParagraphSpace(5)</span><br><span class="line">    '行间距 在一定以下值中均等分布，可改写</span><br><span class="line">    ParagraphSpace(1) = "12"</span><br><span class="line">    ParagraphSpace(2) = "13"</span><br><span class="line">    ParagraphSpace(3) = "20"</span><br><span class="line">    ParagraphSpace(4) = "7"</span><br><span class="line">    ParagraphSpace(5) = "12"</span><br><span class="line"></span><br><span class="line">    '不懂原理的话，不建议修改下列代码</span><br><span class="line"></span><br><span class="line">    For Each R_Character In ActiveDocument.Characters</span><br><span class="line"></span><br><span class="line">        VBA.Randomize</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Name = FontName(Int(VBA.Rnd * 3) + 1)</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Size = FontSize(Int(VBA.Rnd * 5) + 1)</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Position = Int(VBA.Rnd * 3) + 1</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Spacing = 0</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    For Each Cur_Paragraph In ActiveDocument.Paragraphs</span><br><span class="line"></span><br><span class="line">        Cur_Paragraph.LineSpacing = ParagraphSpace(Int(VBA.Rnd * 5) + 1)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line">        Application.ScreenUpdating = True</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></tbody></table></figure>
+
+<p>快捷键 <strong>F5</strong>，运行，即可返回 Word 查看效果，可以在调整调整字体大小，使其更加自然。大功告成！</p>
+<hr>
+<p><font size="40">“</font> 　　<font face="Aa榴莲爸爸" size="5">我是此间少年郎，你是天上明月光。</font>　　<font size="40">”</font>
+   　　　　　　　　　　　　　　　　　　　　</p>
+]]></content>
+      <tags>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>心想随记 (一)</title>
     <url>/2020/06/19/Blog-04/</url>
     <content><![CDATA[<blockquote>
@@ -118,50 +162,6 @@
       <tags>
         <tag>感悟</tag>
         <tag>壁纸</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>800 字？手写？不可能！！！</title>
-    <url>/2020/06/20/Blog-05/</url>
-    <content><![CDATA[<blockquote>
-<p><font face="Aa榴莲爸爸" size="5">小伙儿参加了学校的一个学时活动，原以为水水就过去了，报名后发现事实并没那么简单</font><a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="利用Word-宏-实现手写效果"><a href="#利用Word-宏-实现手写效果" class="headerlink" title="利用Word 宏 实现手写效果"></a>利用 Word<font face="Aa榴莲爸爸" size="13"> 宏 </font>实现手写效果</h1><hr>
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>2019 年 9 月，我第一次背上行囊离开生我养我的家乡，开启<del>美好</del>的大学生活，原以为高中老师嘴中那自由的新天地在向我疯狂招手，在得知【<strong>学时</strong>】制度 (大学四年一共要修满 240 个学时 ——&gt; 及格；400——&gt; 满分) 后，我宛如再次被 “囚禁” 的鸟儿，“什么，参加活动才有学时？！还计分？？🤬🤬🤬”，自此以后<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NCO09U.jpg" alt="学时"></p>
-<p>六月是我国的安全生产月，但由于疫情的影响，学时活动都只能在网上进行，原以为可以水水学时，<font color="red">但是</font><font color="red" size="5">但是</font><font color="red" size="7">但是</font><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NCjNWT.png" alt="800字"></p>
-<p>&nbsp;</p>
-<h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><p>【<strong>不少于 800 字</strong>】、【<strong>纸质扫描版</strong>】…… 让原本不富裕的家庭雪上加霜。要说科技改变生活，不无道理。</p>
-<details><summary><mark><font color="darkred"></font></mark></summary><font size="8"><center>懒人改变生活</center></font></details>
-
-<div align="center"><img src="https://s1.ax1x.com/2020/06/15/NPSKNn.jpg" width="20%" height="20%"></div>
-
-<p>快速地打开百毒，优雅地输入 “手写体”，下载 ——&gt; 解压 ——&gt; 安装字体，兴致冲冲地打开 Word，嘴角疯狂上扬，就这？一番捣鼓后，800 多字的读后感完成了，但是又出现了问题<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPF8jx.png" alt="NPF8jx.png"></p>
-<hr>
-<h1 id="再次操作"><a href="#再次操作" class="headerlink" title="再次操作"></a>再次操作</h1><p>写得太整齐了。办法总是有的，一顿操作后，在知乎上发现了前人栽的树</p>
-<a class="btn-beautify button--animated block center blue larger" href="https://www.zhihu.com/question/20308770/answer/241699602" title="UncleSugar的回答"><i class="far fa-hand-point-right fa-fw"></i><span>UncleSugar 的回答</span></a>
-
-<p>通过 “<strong>UncleSugar</strong>” 大佬的方法完成 “<strong>手写 800 字</strong>” 任务，附上最终成品 [一张]。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPAfcn.png" alt="NPAfcn.png"></p>
-<p>我一共下载了三款字体【** <a href="http://fonts.mobanwang.com/showsoftdown.asp?urlid=1&amp;softid=13232">陈静的字完整版</a><strong>】、【</strong><a href="http://www.zitiweb.com/fonts/%E8%90%8C%E5%A6%B9%E5%AD%90%E5%AD%97%E4%BD%93.ttf">萌妹子字体</a><strong>】、【</strong><a href="http://js.xiazaicc.com/down3/lgfsxt_downcc.com.zip">李国夫手写字体</a> **】。也可以根据自己的需要和喜好去下载，字体相似度越高越好。</p>
-<hr>
-<h1 id="疯狂操作"><a href="#疯狂操作" class="headerlink" title="疯狂操作"></a>疯狂操作</h1><p>打开 Word，【<strong>左下角 “选项”</strong>】——&gt;【<strong>左侧 “信任中心”</strong>】——&gt;【<strong>信任中心设置</strong>】——&gt; 勾选【<strong>启用所有宏</strong>】</p>
-<p><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPejPO.png" alt="NPejPO.png"></p>
-<p>&nbsp;</p>
-<p>创建宏<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NPmkIf.png" alt="NPmkIf.png"></p>
-<p>删除自动生成的代码</p>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Sub 字体修改()</span><br><span class="line">'</span><br><span class="line">' 字体修改 宏</span><br><span class="line">'</span><br><span class="line">'</span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></tbody></table></figure>
-
-<p>添加代码</p>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Sub 字体修改()</span><br><span class="line">'</span><br><span class="line">' 字体修改 宏</span><br><span class="line">'</span><br><span class="line">    Dim R_Character As Range</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Dim FontSize(5)</span><br><span class="line">    ' 字体大小在5个值之间进行波动，可以改写</span><br><span class="line">    FontSize(1) = "21"</span><br><span class="line">    FontSize(2) = "21.5"</span><br><span class="line">    FontSize(3) = "22"</span><br><span class="line">    FontSize(4) = "22.5"</span><br><span class="line">    FontSize(5) = "23"</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Dim FontName(3)</span><br><span class="line">    '字体名称在三种字体之间进行波动，可改写，但需要保证系统拥有下列字体</span><br><span class="line">    FontName(1) = "陈静的字完整版"</span><br><span class="line">    FontName(2) = "萌妹子体"</span><br><span class="line">    FontName(3) = "liguofu"</span><br><span class="line"></span><br><span class="line">    Dim ParagraphSpace(5)</span><br><span class="line">    '行间距 在一定以下值中均等分布，可改写</span><br><span class="line">    ParagraphSpace(1) = "12"</span><br><span class="line">    ParagraphSpace(2) = "13"</span><br><span class="line">    ParagraphSpace(3) = "20"</span><br><span class="line">    ParagraphSpace(4) = "7"</span><br><span class="line">    ParagraphSpace(5) = "12"</span><br><span class="line"></span><br><span class="line">    '不懂原理的话，不建议修改下列代码</span><br><span class="line"></span><br><span class="line">    For Each R_Character In ActiveDocument.Characters</span><br><span class="line"></span><br><span class="line">        VBA.Randomize</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Name = FontName(Int(VBA.Rnd * 3) + 1)</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Size = FontSize(Int(VBA.Rnd * 5) + 1)</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Position = Int(VBA.Rnd * 3) + 1</span><br><span class="line"></span><br><span class="line">        R_Character.Font.Spacing = 0</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    For Each Cur_Paragraph In ActiveDocument.Paragraphs</span><br><span class="line"></span><br><span class="line">        Cur_Paragraph.LineSpacing = ParagraphSpace(Int(VBA.Rnd * 5) + 1)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line">        Application.ScreenUpdating = True</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></tbody></table></figure>
-
-<p>快捷键 <strong>F5</strong>，运行，即可返回 Word 查看效果，可以在调整调整字体大小，使其更加自然。大功告成！</p>
-<hr>
-<p><font size="40">“</font> 　　<font face="Aa榴莲爸爸" size="5">我是此间少年郎，你是天上明月光。</font>　　<font size="40">”</font>
-   　　　　　　　　　　　　　　　　　　　　</p>
-]]></content>
-      <tags>
-        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
@@ -394,11 +394,11 @@ $(document).ready(function(){
 <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>今天在谷歌上逛博客时，突然发现 <code>shen-yu</code> 大佬根据 <code>chatjs</code> 写了一个 Hexo 插件，出于兴趣，打算使用并记录该插件的效果。<br><code>shen-yu</code> 大佬 <a class="btn-beautify button--animated green larger" href="https://shen-yu.gitee.io/2020/chartjs/" title="shen-yu"><i class="far fa-hand-point-right fa-fw"></i><span>shen-yu</span></a><br><code>chatjs</code> 中文文档 <a class="btn-beautify button--animated blue larger" href="https://chartjs.bootcss.com/docs/getting-started/installation.html" title="chatjs"><i class="far fa-hand-point-right fa-fw"></i><span>chatjs</span></a><br>由于插件的安装和图表的使用上面两个链接已介绍得足够详细，本人只做一些图表的演示，并充当一个函数，实现代码的复用 (手动狗头)。</p>
 <hr>
 <h1 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h1><h2 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h2><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart9702" style="height: 300px"></canvas>
+    <canvas id="chart5874" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart9702').getContext('2d');
+    var ctx = document.getElementById('chart5874').getContext('2d');
     var options =  {
     type: 'line',
     data: { 
@@ -568,11 +568,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><h3 id="效果·垂直柱状图"><a href="#效果·垂直柱状图" class="headerlink" title="效果·垂直柱状图"></a>效果・垂直柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart2464" style="height: 300px"></canvas>
+    <canvas id="chart4681" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart2464').getContext('2d');
+    var ctx = document.getElementById('chart4681').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
@@ -602,11 +602,11 @@ $(document).ready(function(){
 <h3 id="示例用法·垂直柱状图"><a href="#示例用法·垂直柱状图" class="headerlink" title="示例用法·垂直柱状图"></a>示例用法・垂直柱状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"bar",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["January","February","March","April","May","June","July"],</span><br><span class="line">        "datasets":[{</span><br><span class="line">        "label":"My First Dataset",</span><br><span class="line">        "data":[65,59,80,81,56,55,40],</span><br><span class="line">        "fill":false,</span><br><span class="line">        "backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],</span><br><span class="line">        "borderColor":["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],</span><br><span class="line">        "borderWidth":1</span><br><span class="line">                     }]</span><br><span class="line">            },</span><br><span class="line">    "options":{</span><br><span class="line">        "scales":{</span><br><span class="line">            "yAxes":[{</span><br><span class="line">                "ticks":{</span><br><span class="line">                    "beginAtZero":true</span><br><span class="line">                        }</span><br><span class="line">                    }]</span><br><span class="line">               }</span><br><span class="line">            }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="效果·水平柱状图"><a href="#效果·水平柱状图" class="headerlink" title="效果·水平柱状图"></a>效果・水平柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart2239" style="height: 300px"></canvas>
+    <canvas id="chart8480" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart2239').getContext('2d');
+    var ctx = document.getElementById('chart8480').getContext('2d');
     var options = {
     "type":"horizontalBar",
     "data":{
@@ -698,11 +698,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h2><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1467" style="height: 300px"></canvas>
+    <canvas id="chart3458" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1467').getContext('2d');
+    var ctx = document.getElementById('chart3458').getContext('2d');
     var options = {
     "type":"radar",
     "data":{
@@ -858,11 +858,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="环状-饼状图"><a href="#环状-饼状图" class="headerlink" title="环状/饼状图"></a>环状 / 饼状图</h2><h3 id="效果·环状图"><a href="#效果·环状图" class="headerlink" title="效果·环状图"></a>效果・环状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart764" style="height: 300px"></canvas>
+    <canvas id="chart7126" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart764').getContext('2d');
+    var ctx = document.getElementById('chart7126').getContext('2d');
     var options = {
     "type":"doughnut",
     "data":{
@@ -881,11 +881,11 @@ $(document).ready(function(){
 
 <h3 id="示例用法·环状图"><a href="#示例用法·环状图" class="headerlink" title="示例用法·环状图"></a>示例用法・环状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"doughnut",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["Red","Blue","Yellow"],</span><br><span class="line">        "datasets":[</span><br><span class="line">            {</span><br><span class="line">                "label":"My First Dataset",</span><br><span class="line">                "data":[300,50,100],</span><br><span class="line">                "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]</span><br><span class="line">            }</span><br><span class="line">        ]</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="效果·饼状图"><a href="#效果·饼状图" class="headerlink" title="效果·饼状图"></a>效果・饼状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4860" style="height: 300px"></canvas>
+    <canvas id="chart2498" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4860').getContext('2d');
+    var ctx = document.getElementById('chart2498').getContext('2d');
     var options = {
     "type":"pie",
     "data":{
@@ -996,11 +996,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="极地图"><a href="#极地图" class="headerlink" title="极地图"></a>极地图</h2><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3416" style="height: 300px"></canvas>
+    <canvas id="chart5959" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3416').getContext('2d');
+    var ctx = document.getElementById('chart5959').getContext('2d');
     var options = {
     "type":"polarArea",
     "data":{
@@ -1068,11 +1068,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="气泡图"><a href="#气泡图" class="headerlink" title="气泡图"></a>气泡图</h2><h3 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5682" style="height: 300px"></canvas>
+    <canvas id="chart1575" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5682').getContext('2d');
+    var ctx = document.getElementById('chart1575').getContext('2d');
     var options = {
     "type":"bubble",
     "data":{
@@ -1224,11 +1224,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><h3 id="效果-4"><a href="#效果-4" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart2110" style="height: 300px"></canvas>
+    <canvas id="chart1731" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart2110').getContext('2d');
+    var ctx = document.getElementById('chart1731').getContext('2d');
     var options = {
     type:'scatter',
     data:{
@@ -1403,11 +1403,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="区域图"><a href="#区域图" class="headerlink" title="区域图"></a>区域图</h2><h3 id="效果-5"><a href="#效果-5" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart396" style="height: 300px"></canvas>
+    <canvas id="chart8656" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart396').getContext('2d');
+    var ctx = document.getElementById('chart8656').getContext('2d');
     var options = {                
     "type":"line",
     "data":{
@@ -1461,11 +1461,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="混合图表"><a href="#混合图表" class="headerlink" title="混合图表"></a>混合图表</h2><h3 id="效果-6"><a href="#效果-6" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1973" style="height: 300px"></canvas>
+    <canvas id="chart7781" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1973').getContext('2d');
+    var ctx = document.getElementById('chart7781').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
