@@ -324,24 +324,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/09/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Vercel 托管博客</title>
     <url>/2020/08/09/Blog-14/</url>
     <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><a href="https://kangblogs.top/">本站</a>已托管至 <a href="https://vercel.com/">Vercel</a>，但作为一名前端小白，昨天帮朋友托管博客到 Vercel 的过程中到处碰壁，就想写一篇博客记录一下。</p>
@@ -364,6 +346,24 @@
         <tag>Hexo</tag>
         <tag>Vercel</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/09/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>在博客中利用 Chartjs 插入动态图表</title>
@@ -394,11 +394,11 @@ $(document).ready(function(){
 <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>今天在谷歌上逛博客时，突然发现 <code>shen-yu</code> 大佬根据 <code>chatjs</code> 写了一个 Hexo 插件，出于兴趣，打算使用并记录该插件的效果。<br><code>shen-yu</code> 大佬 <a class="btn-beautify button--animated green larger" href="https://shen-yu.gitee.io/2020/chartjs/" title="shen-yu"><i class="far fa-hand-point-right fa-fw"></i><span>shen-yu</span></a><br><code>chatjs</code> 中文文档 <a class="btn-beautify button--animated blue larger" href="https://chartjs.bootcss.com/docs/getting-started/installation.html" title="chatjs"><i class="far fa-hand-point-right fa-fw"></i><span>chatjs</span></a><br>由于插件的安装和图表的使用上面两个链接已介绍得足够详细，本人只做一些图表的演示，并充当一个函数，实现代码的复用 (手动狗头)。</p>
 <hr>
 <h1 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h1><h2 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h2><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3071" style="height: 300px"></canvas>
+    <canvas id="chart891" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3071').getContext('2d');
+    var ctx = document.getElementById('chart891').getContext('2d');
     var options =  {
     type: 'line',
     data: { 
@@ -568,11 +568,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><h3 id="效果·垂直柱状图"><a href="#效果·垂直柱状图" class="headerlink" title="效果·垂直柱状图"></a>效果・垂直柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8149" style="height: 300px"></canvas>
+    <canvas id="chart295" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8149').getContext('2d');
+    var ctx = document.getElementById('chart295').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
@@ -602,11 +602,11 @@ $(document).ready(function(){
 <h3 id="示例用法·垂直柱状图"><a href="#示例用法·垂直柱状图" class="headerlink" title="示例用法·垂直柱状图"></a>示例用法・垂直柱状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"bar",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["January","February","March","April","May","June","July"],</span><br><span class="line">        "datasets":[{</span><br><span class="line">        "label":"My First Dataset",</span><br><span class="line">        "data":[65,59,80,81,56,55,40],</span><br><span class="line">        "fill":false,</span><br><span class="line">        "backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],</span><br><span class="line">        "borderColor":["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],</span><br><span class="line">        "borderWidth":1</span><br><span class="line">                     }]</span><br><span class="line">            },</span><br><span class="line">    "options":{</span><br><span class="line">        "scales":{</span><br><span class="line">            "yAxes":[{</span><br><span class="line">                "ticks":{</span><br><span class="line">                    "beginAtZero":true</span><br><span class="line">                        }</span><br><span class="line">                    }]</span><br><span class="line">               }</span><br><span class="line">            }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="效果·水平柱状图"><a href="#效果·水平柱状图" class="headerlink" title="效果·水平柱状图"></a>效果・水平柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7733" style="height: 300px"></canvas>
+    <canvas id="chart7932" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7733').getContext('2d');
+    var ctx = document.getElementById('chart7932').getContext('2d');
     var options = {
     "type":"horizontalBar",
     "data":{
@@ -698,11 +698,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h2><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3710" style="height: 300px"></canvas>
+    <canvas id="chart1851" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3710').getContext('2d');
+    var ctx = document.getElementById('chart1851').getContext('2d');
     var options = {
     "type":"radar",
     "data":{
@@ -858,11 +858,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="环状-饼状图"><a href="#环状-饼状图" class="headerlink" title="环状/饼状图"></a>环状 / 饼状图</h2><h3 id="效果·环状图"><a href="#效果·环状图" class="headerlink" title="效果·环状图"></a>效果・环状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4110" style="height: 300px"></canvas>
+    <canvas id="chart5122" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4110').getContext('2d');
+    var ctx = document.getElementById('chart5122').getContext('2d');
     var options = {
     "type":"doughnut",
     "data":{
@@ -881,11 +881,11 @@ $(document).ready(function(){
 
 <h3 id="示例用法·环状图"><a href="#示例用法·环状图" class="headerlink" title="示例用法·环状图"></a>示例用法・环状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"doughnut",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["Red","Blue","Yellow"],</span><br><span class="line">        "datasets":[</span><br><span class="line">            {</span><br><span class="line">                "label":"My First Dataset",</span><br><span class="line">                "data":[300,50,100],</span><br><span class="line">                "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]</span><br><span class="line">            }</span><br><span class="line">        ]</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="效果·饼状图"><a href="#效果·饼状图" class="headerlink" title="效果·饼状图"></a>效果・饼状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart6053" style="height: 300px"></canvas>
+    <canvas id="chart4148" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6053').getContext('2d');
+    var ctx = document.getElementById('chart4148').getContext('2d');
     var options = {
     "type":"pie",
     "data":{
@@ -996,11 +996,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="极地图"><a href="#极地图" class="headerlink" title="极地图"></a>极地图</h2><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart9874" style="height: 300px"></canvas>
+    <canvas id="chart1999" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart9874').getContext('2d');
+    var ctx = document.getElementById('chart1999').getContext('2d');
     var options = {
     "type":"polarArea",
     "data":{
@@ -1068,11 +1068,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="气泡图"><a href="#气泡图" class="headerlink" title="气泡图"></a>气泡图</h2><h3 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5530" style="height: 300px"></canvas>
+    <canvas id="chart1743" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5530').getContext('2d');
+    var ctx = document.getElementById('chart1743').getContext('2d');
     var options = {
     "type":"bubble",
     "data":{
@@ -1224,11 +1224,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><h3 id="效果-4"><a href="#效果-4" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8955" style="height: 300px"></canvas>
+    <canvas id="chart7167" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8955').getContext('2d');
+    var ctx = document.getElementById('chart7167').getContext('2d');
     var options = {
     type:'scatter',
     data:{
@@ -1403,11 +1403,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="区域图"><a href="#区域图" class="headerlink" title="区域图"></a>区域图</h2><h3 id="效果-5"><a href="#效果-5" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1074" style="height: 300px"></canvas>
+    <canvas id="chart3076" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1074').getContext('2d');
+    var ctx = document.getElementById('chart3076').getContext('2d');
     var options = {                
     "type":"line",
     "data":{
@@ -1461,11 +1461,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="混合图表"><a href="#混合图表" class="headerlink" title="混合图表"></a>混合图表</h2><h3 id="效果-6"><a href="#效果-6" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4426" style="height: 300px"></canvas>
+    <canvas id="chart3858" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4426').getContext('2d');
+    var ctx = document.getElementById('chart3858').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
