@@ -14,7 +14,7 @@ $(function () {
     }
 
     // shortcut: ESC
-    document.addEventListener('keydown', function f(event) {
+    document.addEventListener('keydown', function f (event) {
       if (event.code === 'Escape') {
         closeSearch()
         document.removeEventListener('keydown', f)
@@ -52,9 +52,9 @@ $(function () {
     searchClickFn()
   })
 
-  function search(path) {
+  function search (path) {
     $.ajax({
-      url: "https://cdn.jsdelivr.net/gh/flipped-1121/flipped-1121.github.io/search.xml",
+      url: GLOBAL_CONFIG.root + path,
       dataType: 'xml',
       success: function (xmlResponse) {
         // get the contents from search data
