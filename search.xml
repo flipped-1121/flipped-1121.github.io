@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>IDM 多线程下载器</title>
+    <url>/2020/06/11/Blog-02/</url>
+    <content><![CDATA[<blockquote>
+<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
+<p>在上一篇中出现了这张图：<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/t7NhFJ.png" alt="IDM下载"></p>
+<p>&nbsp;</p>
+<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
+<hr>
+<ul>
+<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
+</li>
+<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/tq73xH.png"> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
+<hr>
+</li>
+</ul>
+<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
+]]></content>
+      <tags>
+        <tag>分享</tag>
+        <tag>IDM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>First Blog</title>
     <url>/2020/06/09/Blog-01/</url>
     <content><![CDATA[<blockquote>
@@ -41,35 +68,8 @@
 <p> 毒盘不限速下载的方法还有很多，譬如，【<strong>亿寻</strong>】、【<strong>Pandownload 复活版</strong>】等等，在各大电报群搜罗了一番，本着【<strong>互联网分享精神</strong>】介绍这一种目前还比较稳定的方法。</p>
 ]]></content>
       <tags>
+        <tag>分享</tag>
         <tag>百度</tag>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDM 多线程下载器</title>
-    <url>/2020/06/11/Blog-02/</url>
-    <content><![CDATA[<blockquote>
-<p>今天填上一篇的<strong>坑</strong><a id="more"></a></p>
-</blockquote>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="IDM多线程下载器🌙🌙🌙"><a href="#IDM多线程下载器🌙🌙🌙" class="headerlink" title="IDM多线程下载器🌙🌙🌙"></a>IDM 多线程下载器🌙🌙🌙</h1><hr>
-<p>在上一篇中出现了这张图：<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/t7NhFJ.png" alt="IDM下载"></p>
-<p>&nbsp;</p>
-<p>在【<strong>KinhDown 免费版</strong>】解析 <strong>Aria 链接</strong>后，自动弹出并请求下载，<strong>对</strong>！就是这么简单。<br>这就是大名鼎鼎的【<a href="https://wwa.lanzous.com/ieLKadkluji"><strong>IDM</strong></a>】(<strong>I</strong>nternet <strong>D</strong>ownload <strong>M</strong>anager)</p>
-<hr>
-<ul>
-<li><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载，解压后安装，Windows 式” 下一步 “安装即可。</p>
-</li>
-<li><h2 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h2><p><strong>Patches</strong>📂中解压与电脑操作系统位数对应的压缩包 (解压密码：<strong>123</strong>)，右击 Patch 可执行程序，以管理员身份运行，继续【<strong>next</strong>】。再次点击 IDM，若界面出现<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/tq73xH.png"> 　　　　　　　　　　　　　　　　　　　　⚡开始奔放⚡</p>
-<hr>
-</li>
-</ul>
-<p>　　诚然，钱包鼓的话，可以去官网 <a href="http://www.internetdownloadmanager.com/" class="LinkCard">IDM 官网</a>支持一下！那它为什么这么快呢？说白了就是【<strong>多线程</strong>】。我们将下载一个文件这件事比作为接一桶水，按平常下载的情况就相当于开一个水龙头向桶里放水；当使用上 IDM，就相当于同时打开了多个水龙头往桶里放水，速度当然快起来了。【<strong>注</strong>】IDM 最大支持 <strong>32</strong> 线程。至此，电脑上的下载任务，IDM 就可以全局代理。</p>
-]]></content>
-      <tags>
-        <tag>分享</tag>
-        <tag>IDM</tag>
       </tags>
   </entry>
   <entry>
@@ -366,7 +366,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Java 学习（一）</title>
+    <title>Java 学习・初识 Java</title>
     <url>/2020/10/07/Blog-18/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
 <p>Java 是一种<strong>面向对象</strong>的编程语言。在学习语法细节前，对其历史、现状和特性有所了解是有裨益的。</p>
@@ -388,7 +388,7 @@
 </ul>
 <p>Java 无处不在，可应用在任何地方、任何领域，目前已拥有几百万用户，发展速度要快与在它之前任何一种计算机语言。Java 能够给企业和最终用户带来数不尽的好处。Oracle 公司董事长和首席执行官 Larru Ellision 说过：“Java 正在进入企业、家庭和学校。它正在像 Internet 本身一样成为普遍存在的技术。”<br>如果仔细观察就会发现，Java 就在我们身边。使用 Java 语言编写的常见开源软件包括 NetBeans 和 Eclipse 集成开发环境、JBoss 和 GlassFish 应用服务器；商业软件包括永中 Office、合金战士 Chrome、Websphere 和 Oracle Database 11g。此外，各手机厂商都为自己的产品提供了 Java 技术的支持，手机上的 Java 程序和游戏已经不胜枚举。<br>为了满足不同开发人员的需求，Java 开发分成了以下 3 个方向。</p>
 <ul>
-<li>Java SE：主要用于桌面程序的开发。它是学习 Java EE 和 Java ME 的基础，也是本书的重点内容。</li>
+<li>Java SE：主要用于桌面程序的开发。它是学习 Java EE 和 Java ME 的基础。</li>
 <li>Java EE：主要用于网页程序的开发。随着互联网的发展，越来越多的企业使用 Java 语言来开发自己的官方网站，其中不乏一些世界 500 强的企业。</li>
 <li>Java ME：主要用于嵌入式系统程序的开发。</li>
 </ul>
@@ -409,7 +409,48 @@
 <h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><p>多线程机制能够使应用程序在同一时间并行执行多项任务，而且相应的同步机制可以保证不同线程能够正确地共享数据。使用多线程，可以带来更好的交互能力和实时行为。</p>
 <h3 id="高性能"><a href="#高性能" class="headerlink" title="高性能"></a>高性能</h3><p>Java 编译后的字节码是在解释器中运行的，所以它的速度比多数交互式应用程序提高了很多。另外，字节码可以在程序运行时被翻译成特定平台的机器指令，从而进一步提高运行速度。</p>
 <h3 id="动态"><a href="#动态" class="headerlink" title="动态"></a>动态</h3><p>Java 在很多方面比 C 和 C++ 更能够适应发展的环境，可以动态调整库中方法和变量的增加，而客户端却不需要作任何更改。在 Java 中，动态调整是非常简单、直接的。</p>
-<a class="btn-beautify button--animated block right blue larger" href="https://kangblogs.top/2020/10/08/Blog-19" title="Java学习（二）"><i class="far fa-hand-point-right fa-fw"></i><span>Java 学习（二）</span></a>
+<a class="btn-beautify button--animated block right blue larger" href="https://kangblogs.top/2020/10/08/Blog-19" title="Java学习·搭建开发环境"><i class="far fa-hand-point-right fa-fw"></i><span>Java 学习・搭建开发环境</span></a>
+]]></content>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java 学习・搭建开发环境</title>
+    <url>/2020/10/11/Blog-19/</url>
+    <content><![CDATA[<h1 id="JDK的下载、安装和配置"><a href="#JDK的下载、安装和配置" class="headerlink" title="JDK的下载、安装和配置"></a>JDK 的下载、安装和配置</h1><p>开发 Java 程序必须安装 JDK (Java Developers Kits) 开发环境。它包含演示程序和样例、Java 公共 API 类的源代码、Java 运行环境、编译调试等开发工具。</p>
+<h2 id="下载JDK"><a href="#下载JDK" class="headerlink" title="下载JDK"></a>下载 JDK</h2><p>由于 Sun 公司被 Oracle 收购，因此 JDK 可以在 Oracle 公司的官方网站下载。<a class="btn-beautify button--animated blue larger" href="http://www.oracle.com/cn/index.html" title="Oracle"><i class="far fa-hand-point-right fa-fw"></i><span>Oracle</span></a><br>下面以<rainbow-text> JDK8</rainbow-text> 为例介绍 Windows64 位下载 JDK 的方法，具体步骤如下。</p>
+<ul>
+<li>浏览器地址栏输入 <a href="https://www.oracle.com/cn/java/technologies/javase-downloads.html">https://www.oracle.com/cn/java/technologies/javase-downloads.html</a></li>
+<li> 下滑到 Java SE 8，点击 JDK Download<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011133707.png"></li>
+<li>点击下载对应版本，这里以 WIN-64 为例。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011142616.png"><div class="note info flat"><p>首次使用需要注册并登录 Oracle 账号</p>
+</div>
+
+</li>
+</ul>
+<h2 id="安装JDK"><a href="#安装JDK" class="headerlink" title="安装JDK"></a>安装 JDK</h2><blockquote>
+<p>在 JDK 中，已经包含了 JRE。JDK 用于开发 Java 程序，JRE 用于运行 Java 程序</p>
+</blockquote>
+<ul>
+<li>双击下载的 <code>jdk-8u261-windows-x64.exe</code>，接着 Windows 式下一步。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011143418.png"></li>
+<li>如需更改安装位置，点击<code>更改</code>，接着<code>下一步</code>。注：请记住该安装位置，后续配置环境变量会用到。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011143726.png"></li>
+<li>点击<code>下一步</code>，安装中。<img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/SIG4A@1JV0%7DLJBG[MLTY84C.png"></li>
+</ul>
+<h2 id="配置JDK"><a href="#配置JDK" class="headerlink" title="配置JDK"></a>配置 JDK</h2><p>安装完 JDK 之后，必须配置环境变量方可使用 Java 环境。在 Windows 操作系统中，主要配置 3 个环境变量，分别是 JAVA_HOME、Path 和 CLASSPATH。其中 JAVA_HOME 用来指定 JDK 的安装路径；Path 用来使系统能够在任何路径下都可以识别 Java 命令；CLASSPATH 用来加载 Java 类库的路径。在 Windows 7 系统中配置环境变量的步骤如下。</p>
+<ul>
+<li>在 “计算机” 图标上单击鼠标右键，在弹出的快捷菜单中选择<code>属性</code>命令，在弹出的<code>属性</code>对话框左侧单击<code>高级系统设置</code>超链接，将打开<code>系统属性</code>对话框。</li>
+<li>单击<code>环境变量</code>按钮，将弹出 “环境变量” 对话框，单击<code>系统变量</code>栏下的 “新建” 按钮，创建新的系统变量。弹出 “新建系统变量” 对话框，分别输入变量名 <code>JAVA_HOME</code> 和变量值（即 JDK 的安装路径），其中变量值是笔者的 JDK 安装路径，读者需要根据自己的计算机环境进行修改。单击<code>确定</code>按钮，关闭 “新建系统变量” 对话框。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011150220.png" alt="20201011150220"><br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011151600.png" alt="20201011151600"><br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011152037.png" alt="20201011152037"></li>
+<li>在<code>环境变量</code>对话框中双击 Path 变量，对其进行修改。将原变量值最前面的 <code>C:\Program Files (x86)\Common Files\Oracle\Java\javapath;</code> 删除，并输入 <code>%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;</code>（注意，最后的 “;” 不要丢掉，它用于分割不同的变量值）。单击<code>确定</code>按钮完成环境变量的设置。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011152528.png" alt="20201011152528"></li>
+<li>在 “环境变量” 对话框中，单击 “系统变量” 栏下的<code>新建</code>按钮，新建一个 <strong>CLASSPATH</strong> 变量，变量值为<code>.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;</code>。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011152735.png" alt="20201011152735"><div class="note info flat"><p>在 Windows 系统中，环境变量需要使用英文的分号进行分隔；在 Linux 系统中，环境变量需要使用英文的冒号进行分隔。要注意全角和半角的区别。</p>
+</div></li>
+<li>接着一路<code>确定</code>，就到了激动人心的验证是否配置成功的环节。</li>
+</ul>
+<h2 id="测试开发环境"><a href="#测试开发环境" class="headerlink" title="测试开发环境"></a>测试开发环境</h2><p>JDK 配置完成后，需确认是否配置准确。在 Windows 系统中测试 JDK 环境需要选择 “开始”/“运行” 命令（没有 “运行” 命令可以按 Windows+R 组合键），然后在 “运行” 对话框中输入 “cmd” 并单击 “确定” 按钮启动控制台。在控制台中输入 javac 命令，按 Enter 键，将输出如下图所示的 JDK 的编译器信息，其中包括修改命令的语法和参数选项等信息。这说明 JDK 环境搭建成功。<span class="Pshake">Congratulations!</span><br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201011153704.png" alt="20201011153704"></p>
+<hr>
+<h1 id="JDK、JRE和JVM之间的关系"><a href="#JDK、JRE和JVM之间的关系" class="headerlink" title="JDK、JRE和JVM之间的关系"></a>JDK、JRE 和 JVM 之间的关系</h1><p><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/JDKJREJVM.png" alt="JDKJREJVM"></p>
+<a class="btn-beautify button--animated block left larger" href="https://kangblogs.top/2020/10/07/Blog-18" title="Java学习·初识Java"><i class="far fa-hand-point-left fa-fw"></i><span>Java 学习・初识 Java</span></a>
+<a class="btn-beautify button--animated block right blue larger" href="https://kangblogs.top/2020/10/08/Blog-20" title="Java学习·第一个Java程序"><i class="far fa-hand-point-right fa-fw"></i><span>Java 学习・第一个 Java 程序</span></a>
+
 ]]></content>
       <tags>
         <tag>Java</tag>
@@ -489,11 +530,11 @@ $(document).ready(function(){
 <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>今天在谷歌上逛博客时，突然发现 <code>shen-yu</code> 大佬根据 <code>chatjs</code> 写了一个 Hexo 插件，出于兴趣，打算使用并记录该插件的效果。<br><code>shen-yu</code> 大佬 <a class="btn-beautify button--animated green larger" href="https://shen-yu.gitee.io/2020/chartjs/" title="shen-yu"><i class="far fa-hand-point-right fa-fw"></i><span>shen-yu</span></a><br><code>chatjs</code> 中文文档 <a class="btn-beautify button--animated blue larger" href="https://chartjs.bootcss.com/docs/getting-started/installation.html" title="chatjs"><i class="far fa-hand-point-right fa-fw"></i><span>chatjs</span></a><br>由于插件的安装和图表的使用上面两个链接已介绍得足够详细，本人只做一些图表的演示，并充当一个函数，实现代码的复用 (手动狗头)。</p>
 <hr>
 <h1 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h1><h2 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h2><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart814" style="height: 300px"></canvas>
+    <canvas id="chart4684" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart814').getContext('2d');
+    var ctx = document.getElementById('chart4684').getContext('2d');
     var options =  {
     type: 'line',
     data: { 
@@ -663,11 +704,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><h3 id="效果·垂直柱状图"><a href="#效果·垂直柱状图" class="headerlink" title="效果·垂直柱状图"></a>效果・垂直柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3661" style="height: 300px"></canvas>
+    <canvas id="chart8297" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3661').getContext('2d');
+    var ctx = document.getElementById('chart8297').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
@@ -697,11 +738,11 @@ $(document).ready(function(){
 <h3 id="示例用法·垂直柱状图"><a href="#示例用法·垂直柱状图" class="headerlink" title="示例用法·垂直柱状图"></a>示例用法・垂直柱状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"bar",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["January","February","March","April","May","June","July"],</span><br><span class="line">        "datasets":[{</span><br><span class="line">        "label":"My First Dataset",</span><br><span class="line">        "data":[65,59,80,81,56,55,40],</span><br><span class="line">        "fill":false,</span><br><span class="line">        "backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],</span><br><span class="line">        "borderColor":["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],</span><br><span class="line">        "borderWidth":1</span><br><span class="line">                     }]</span><br><span class="line">            },</span><br><span class="line">    "options":{</span><br><span class="line">        "scales":{</span><br><span class="line">            "yAxes":[{</span><br><span class="line">                "ticks":{</span><br><span class="line">                    "beginAtZero":true</span><br><span class="line">                        }</span><br><span class="line">                    }]</span><br><span class="line">               }</span><br><span class="line">            }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="效果·水平柱状图"><a href="#效果·水平柱状图" class="headerlink" title="效果·水平柱状图"></a>效果・水平柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8182" style="height: 300px"></canvas>
+    <canvas id="chart8450" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8182').getContext('2d');
+    var ctx = document.getElementById('chart8450').getContext('2d');
     var options = {
     "type":"horizontalBar",
     "data":{
@@ -793,11 +834,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h2><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8698" style="height: 300px"></canvas>
+    <canvas id="chart4756" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8698').getContext('2d');
+    var ctx = document.getElementById('chart4756').getContext('2d');
     var options = {
     "type":"radar",
     "data":{
@@ -953,11 +994,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="环状-饼状图"><a href="#环状-饼状图" class="headerlink" title="环状/饼状图"></a>环状 / 饼状图</h2><h3 id="效果·环状图"><a href="#效果·环状图" class="headerlink" title="效果·环状图"></a>效果・环状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5637" style="height: 300px"></canvas>
+    <canvas id="chart5292" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5637').getContext('2d');
+    var ctx = document.getElementById('chart5292').getContext('2d');
     var options = {
     "type":"doughnut",
     "data":{
@@ -976,11 +1017,11 @@ $(document).ready(function(){
 
 <h3 id="示例用法·环状图"><a href="#示例用法·环状图" class="headerlink" title="示例用法·环状图"></a>示例用法・环状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"doughnut",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["Red","Blue","Yellow"],</span><br><span class="line">        "datasets":[</span><br><span class="line">            {</span><br><span class="line">                "label":"My First Dataset",</span><br><span class="line">                "data":[300,50,100],</span><br><span class="line">                "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]</span><br><span class="line">            }</span><br><span class="line">        ]</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="效果·饼状图"><a href="#效果·饼状图" class="headerlink" title="效果·饼状图"></a>效果・饼状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7267" style="height: 300px"></canvas>
+    <canvas id="chart3650" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7267').getContext('2d');
+    var ctx = document.getElementById('chart3650').getContext('2d');
     var options = {
     "type":"pie",
     "data":{
@@ -1091,11 +1132,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="极地图"><a href="#极地图" class="headerlink" title="极地图"></a>极地图</h2><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8312" style="height: 300px"></canvas>
+    <canvas id="chart763" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8312').getContext('2d');
+    var ctx = document.getElementById('chart763').getContext('2d');
     var options = {
     "type":"polarArea",
     "data":{
@@ -1163,11 +1204,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="气泡图"><a href="#气泡图" class="headerlink" title="气泡图"></a>气泡图</h2><h3 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3201" style="height: 300px"></canvas>
+    <canvas id="chart9303" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3201').getContext('2d');
+    var ctx = document.getElementById('chart9303').getContext('2d');
     var options = {
     "type":"bubble",
     "data":{
@@ -1319,11 +1360,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><h3 id="效果-4"><a href="#效果-4" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart6852" style="height: 300px"></canvas>
+    <canvas id="chart3404" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6852').getContext('2d');
+    var ctx = document.getElementById('chart3404').getContext('2d');
     var options = {
     type:'scatter',
     data:{
@@ -1498,11 +1539,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="区域图"><a href="#区域图" class="headerlink" title="区域图"></a>区域图</h2><h3 id="效果-5"><a href="#效果-5" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3285" style="height: 300px"></canvas>
+    <canvas id="chart8480" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3285').getContext('2d');
+    var ctx = document.getElementById('chart8480').getContext('2d');
     var options = {                
     "type":"line",
     "data":{
@@ -1556,11 +1597,11 @@ $(document).ready(function(){
 
 <hr>
 <h2 id="混合图表"><a href="#混合图表" class="headerlink" title="混合图表"></a>混合图表</h2><h3 id="效果-6"><a href="#效果-6" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart2252" style="height: 300px"></canvas>
+    <canvas id="chart489" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart2252').getContext('2d');
+    var ctx = document.getElementById('chart489').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
