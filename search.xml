@@ -505,8 +505,26 @@
 </li>
 <li><rainbow-text>HelloWorld!</rainbow-text><br>新建一个 Java 项目（<code>文件</code> —&gt; <code>新建</code> —&gt;<code>Java项目</code>），名称随意。<br>新建一个 Java 类（<code>右击刚新建的Java项目</code>–&gt; <code>新建</code> —&gt; <code>类</code>），命名为 <code>HelloWorld</code>。并编写刚学会的打印 <code>HelloWorld!</code> 的代码。<br><code>Ctrl+F11</code> 编译并运行。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201014145539.png" alt="20201014145539"></li>
 </ul>
-<h1 id="IDE之IDEA"><a href="#IDE之IDEA" class="headerlink" title="IDE之IDEA"></a>IDE 之 IDEA</h1><p><rainbow-text>不肝了，16 号晚上再写</rainbow-text>😴😴😴</p>
-<div id="binft">命要紧命要紧</div>
+<h1 id="IDE之IDEA"><a href="#IDE之IDEA" class="headerlink" title="IDE之IDEA"></a>IDE 之 IDEA</h1><p>“你怎么还在用 Eclipse？？？”，“因为它免费啊！”。现在介绍一款 Java 开发利器 —<rainbow-text>IntelliJ IDEA</rainbow-text>，IntelliJ 在业界被公认为最好的 Java 开发工具，尤其在智能代码助手、代码自动提示、重构、JavaEE 支持、各类版本工具 (git、svn 等)、JUnit、CVS 整合、代码分析、 创新的 GUI 设计等方面的功能可以说是超常的。IDEA 是 JetBrains 公司的产品，这家公司总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主。它的旗舰版本还支持 HTML，CSS，PHP，MySQL，Python 等。免费版只支持 Java,Kotlin 等少数语言。诚然，没有最好的工具，只有适合自己的工具。免费版的 IntelliJ IDEA 已经基本可以满足 Java 学习。</p>
+<h2 id="下载IDEA"><a href="#下载IDEA" class="headerlink" title="下载IDEA"></a>下载 IDEA</h2><blockquote>
+<p>这里以 64 位 Windows 为例</p>
+</blockquote>
+<ul>
+<li>打开浏览器，首先在地址栏中输入 <a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a>，按 Enter 键开始访问 IDEA 的官网下载页面，这里提供了两个版本：<code>Ultimate</code>，付费版，可免费试用 30 天，学生可申请免费；<code>社区版</code>，免费开源，够用。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201017231957.png" alt="20201017231957"></li>
+</ul>
+<h2 id="安装IDEA"><a href="#安装IDEA" class="headerlink" title="安装IDEA"></a>安装 IDEA</h2><p>双击安装包，选择安装路径，安装。【不再赘叙】</p>
+<h2 id="配置IDEA"><a href="#配置IDEA" class="headerlink" title="配置IDEA"></a>配置 IDEA</h2><ul>
+<li><p>点击 <code>Create New Project </code>，选择 <code>Java模块</code>，Project SDK 选择 JDK 的安装目录。<code>Next</code>—&gt;<code>Next</code>—&gt; <code>命名项目名称</code> —&gt;<code>Finish</code>。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201017233631.png" alt="20201017233631"></p>
+</li>
+<li><p>这里附上汉化教程，酌情选择是否汉化。</p>
+<ul>
+<li>依次点击<code>文件</code>、<code>设置</code>、<code>Plugins</code>，并搜索 <code>Chinese</code>。点击安装。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201018002334.png" alt="20201018002334"><br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201018002532.png" alt="20201018002532"></li>
+</ul>
+</li>
+<li><p><rainbow-text>HelloWorld!</rainbow-text><br>新建一个 Java 类（右击刚新建的 Java 项目下的 <code>src</code> 目录–&gt; 新建 <code>Java类</code>），命名为 <code>HelloWorld</code>。并编写刚学会的打印 <code>HelloWorld!</code> 的代码。<br><code>Shift+F10</code> 编译并运行。<br><img src="https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/20201018003433.png" alt="20201018003433"></p>
+</li>
+</ul>
+<div id="binft">Congratulations!</div>
 <script src="https://cdn.jsdelivr.net/gh/flipped-1121/CDN/colorfont03.js"></script>]]></content>
       <tags>
         <tag>Java</tag>
@@ -570,11 +588,11 @@
 <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>今天在谷歌上逛博客时，突然发现 <code>shen-yu</code> 大佬根据 <code>chatjs</code> 写了一个 Hexo 插件，出于兴趣，打算使用并记录该插件的效果。<br><code>shen-yu</code> 大佬 <a class="btn-beautify button--animated green larger" href="https://shen-yu.gitee.io/2020/chartjs/" title="shen-yu"><i class="far fa-hand-point-right fa-fw"></i><span>shen-yu</span></a><br><code>chatjs</code> 中文文档 <a class="btn-beautify button--animated blue larger" href="https://chartjs.bootcss.com/docs/getting-started/installation.html" title="chatjs"><i class="far fa-hand-point-right fa-fw"></i><span>chatjs</span></a><br>由于插件的安装和图表的使用上面两个链接已介绍得足够详细，本人只做一些图表的演示，并充当一个函数，实现代码的复用 (手动狗头)。</p>
 <hr>
 <h1 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h1><h2 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h2><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1515" style="height: 300px"></canvas>
+    <canvas id="chart4555" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1515').getContext('2d');
+    var ctx = document.getElementById('chart4555').getContext('2d');
     var options =  {
     type: 'line',
     data: { 
@@ -744,11 +762,11 @@
 
 <hr>
 <h2 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h2><h3 id="效果·垂直柱状图"><a href="#效果·垂直柱状图" class="headerlink" title="效果·垂直柱状图"></a>效果・垂直柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart9660" style="height: 300px"></canvas>
+    <canvas id="chart5873" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart9660').getContext('2d');
+    var ctx = document.getElementById('chart5873').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
@@ -778,11 +796,11 @@
 <h3 id="示例用法·垂直柱状图"><a href="#示例用法·垂直柱状图" class="headerlink" title="示例用法·垂直柱状图"></a>示例用法・垂直柱状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"bar",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["January","February","March","April","May","June","July"],</span><br><span class="line">        "datasets":[{</span><br><span class="line">        "label":"My First Dataset",</span><br><span class="line">        "data":[65,59,80,81,56,55,40],</span><br><span class="line">        "fill":false,</span><br><span class="line">        "backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],</span><br><span class="line">        "borderColor":["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],</span><br><span class="line">        "borderWidth":1</span><br><span class="line">                     }]</span><br><span class="line">            },</span><br><span class="line">    "options":{</span><br><span class="line">        "scales":{</span><br><span class="line">            "yAxes":[{</span><br><span class="line">                "ticks":{</span><br><span class="line">                    "beginAtZero":true</span><br><span class="line">                        }</span><br><span class="line">                    }]</span><br><span class="line">               }</span><br><span class="line">            }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="效果·水平柱状图"><a href="#效果·水平柱状图" class="headerlink" title="效果·水平柱状图"></a>效果・水平柱状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4427" style="height: 300px"></canvas>
+    <canvas id="chart6575" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4427').getContext('2d');
+    var ctx = document.getElementById('chart6575').getContext('2d');
     var options = {
     "type":"horizontalBar",
     "data":{
@@ -874,11 +892,11 @@
 
 <hr>
 <h2 id="雷达图"><a href="#雷达图" class="headerlink" title="雷达图"></a>雷达图</h2><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart7258" style="height: 300px"></canvas>
+    <canvas id="chart6237" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart7258').getContext('2d');
+    var ctx = document.getElementById('chart6237').getContext('2d');
     var options = {
     "type":"radar",
     "data":{
@@ -1034,11 +1052,11 @@
 
 <hr>
 <h2 id="环状-饼状图"><a href="#环状-饼状图" class="headerlink" title="环状/饼状图"></a>环状 / 饼状图</h2><h3 id="效果·环状图"><a href="#效果·环状图" class="headerlink" title="效果·环状图"></a>效果・环状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4188" style="height: 300px"></canvas>
+    <canvas id="chart9381" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4188').getContext('2d');
+    var ctx = document.getElementById('chart9381').getContext('2d');
     var options = {
     "type":"doughnut",
     "data":{
@@ -1057,11 +1075,11 @@
 
 <h3 id="示例用法·环状图"><a href="#示例用法·环状图" class="headerlink" title="示例用法·环状图"></a>示例用法・环状图</h3><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 90% 300 %}</span><br><span class="line">{</span><br><span class="line">    "type":"doughnut",</span><br><span class="line">    "data":{</span><br><span class="line">        "labels":["Red","Blue","Yellow"],</span><br><span class="line">        "datasets":[</span><br><span class="line">            {</span><br><span class="line">                "label":"My First Dataset",</span><br><span class="line">                "data":[300,50,100],</span><br><span class="line">                "backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]</span><br><span class="line">            }</span><br><span class="line">        ]</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="效果·饼状图"><a href="#效果·饼状图" class="headerlink" title="效果·饼状图"></a>效果・饼状图</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart8498" style="height: 300px"></canvas>
+    <canvas id="chart97" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart8498').getContext('2d');
+    var ctx = document.getElementById('chart97').getContext('2d');
     var options = {
     "type":"pie",
     "data":{
@@ -1172,11 +1190,11 @@
 
 <hr>
 <h2 id="极地图"><a href="#极地图" class="headerlink" title="极地图"></a>极地图</h2><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5155" style="height: 300px"></canvas>
+    <canvas id="chart3789" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5155').getContext('2d');
+    var ctx = document.getElementById('chart3789').getContext('2d');
     var options = {
     "type":"polarArea",
     "data":{
@@ -1244,11 +1262,11 @@
 
 <hr>
 <h2 id="气泡图"><a href="#气泡图" class="headerlink" title="气泡图"></a>气泡图</h2><h3 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart4394" style="height: 300px"></canvas>
+    <canvas id="chart4726" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart4394').getContext('2d');
+    var ctx = document.getElementById('chart4726').getContext('2d');
     var options = {
     "type":"bubble",
     "data":{
@@ -1400,11 +1418,11 @@
 
 <hr>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><h3 id="效果-4"><a href="#效果-4" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart5394" style="height: 300px"></canvas>
+    <canvas id="chart4643" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart5394').getContext('2d');
+    var ctx = document.getElementById('chart4643').getContext('2d');
     var options = {
     type:'scatter',
     data:{
@@ -1579,11 +1597,11 @@
 
 <hr>
 <h2 id="区域图"><a href="#区域图" class="headerlink" title="区域图"></a>区域图</h2><h3 id="效果-5"><a href="#效果-5" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart2419" style="height: 300px"></canvas>
+    <canvas id="chart7676" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart2419').getContext('2d');
+    var ctx = document.getElementById('chart7676').getContext('2d');
     var options = {                
     "type":"line",
     "data":{
@@ -1637,11 +1655,11 @@
 
 <hr>
 <h2 id="混合图表"><a href="#混合图表" class="headerlink" title="混合图表"></a>混合图表</h2><h3 id="效果-6"><a href="#效果-6" class="headerlink" title="效果"></a>效果</h3><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart6632" style="height: 300px"></canvas>
+    <canvas id="chart4729" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6632').getContext('2d');
+    var ctx = document.getElementById('chart4729').getContext('2d');
     var options = {
     "type":"bar",
     "data":{
