@@ -319,6 +319,13 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/Java/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/Python/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -334,13 +341,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E4%BA%91%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/Java/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
