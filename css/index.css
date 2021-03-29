@@ -2187,6 +2187,21 @@ blockquote footer cite:before {
   display: flex;
   flex-direction: column;
 }
+.page .card-recent-post {
+  order: 2;
+}
+.page .card-categories {
+  order: 3;
+}
+.page .card-tags {
+  order: 4;
+}
+.page .card-archives {
+  order: '';
+}
+.page .card-webinfo {
+  order: 7;
+}
 @-moz-keyframes more-btn-move {
   0%, 100% {
     transform: translateX(0);
