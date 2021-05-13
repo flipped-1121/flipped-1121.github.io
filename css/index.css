@@ -3560,7 +3560,7 @@ _:future,
   background-image: none;
 }
 #waline-wrap textarea {
-  background: url("/image/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/flipped-1121/BlogPictures/flipped-1121-PIC/NaC7xf.png") 100% 100% no-repeat;
 }
 #waline-wrap textarea:focus {
   background-image: none;
