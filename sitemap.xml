@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kangblogs.top/about/index.html</loc>
+    
+    <lastmod>2021-05-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/2020/06/09/hello-world/</loc>
     
     <lastmod>2021-04-29</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://kangblogs.top/bb/index.html</loc>
     
     <lastmod>2021-04-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/about/index.html</loc>
-    
-    <lastmod>2021-04-05</lastmod>
     
   </url>
   
@@ -249,7 +249,7 @@
 
   <url>
     <loc>https://kangblogs.top/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -257,98 +257,98 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E7%99%BE%E5%BA%A6/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/IDM/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E5%A3%81%E7%BA%B8/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/Hexo/</loc>
-    <lastmod>2021-05-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/Vercel/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/Butterfly/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/Vercel/</loc>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E6%95%B0%E7%94%B5/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/%E6%A0%BC%E9%9B%B7%E7%A0%81/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/Java/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/Chart-js/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
-    <lastmod>2021-05-15</lastmod>
+    <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
