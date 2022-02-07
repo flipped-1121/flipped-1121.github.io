@@ -4,7 +4,7 @@
   <url>
     <loc>https://kangblogs.top/posts/f5398100.html</loc>
     
-    <lastmod>2022-02-04</lastmod>
+    <lastmod>2022-02-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -456,14 +456,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Butterfly/</loc>
+    <loc>https://kangblogs.top/tags/Vercel/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Vercel/</loc>
+    <loc>https://kangblogs.top/tags/Butterfly/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -575,6 +575,13 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/Java/</loc>
+    <lastmod>2022-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/Python/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -590,13 +597,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E4%BA%91%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2022-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/Java/</loc>
     <lastmod>2022-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
