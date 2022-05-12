@@ -448,6 +448,20 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E5%A3%81%E7%BA%B8/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/IDM/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -463,20 +477,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/%E5%A3%81%E7%BA%B8/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -567,13 +567,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/5G/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -588,14 +581,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E5%B0%8F%E7%B1%B3/</loc>
+    <loc>https://kangblogs.top/tags/5G/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E6%B5%B7%E6%80%9D/</loc>
+    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -616,7 +609,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <loc>https://kangblogs.top/tags/%E5%B0%8F%E7%B1%B3/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E6%B5%B7%E6%80%9D/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -644,6 +644,13 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -659,13 +666,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/Mint/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
