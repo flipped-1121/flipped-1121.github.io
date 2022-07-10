@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kangblogs.top/bangumi/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/IOT/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/cat/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/bb/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/posts/4a17b156.html</loc>
     
     <lastmod>2022-07-10</lastmod>
@@ -83,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/IOT/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/posts/f5398100.html</loc>
     
     <lastmod>2022-02-07</lastmod>
@@ -140,15 +167,6 @@
     <loc>https://kangblogs.top/posts/3c6cceaa.html</loc>
     
     <lastmod>2021-11-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/bb/index.html</loc>
-    
-    <lastmod>2021-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -254,27 +272,9 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/cat/index.html</loc>
-    
-    <lastmod>2020-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/posts/3277fbaa.html</loc>
     
     <lastmod>2020-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/bangumi/index.html</loc>
-    
-    <lastmod>2020-08-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -455,6 +455,20 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/Java/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -470,20 +484,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/Java/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -602,6 +602,27 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/%E5%B0%8F%E7%B1%B3/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E6%B5%B7%E6%80%9D/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/Hadoop/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -617,27 +638,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/Linux/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/%E5%B0%8F%E7%B1%B3/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/%E6%B5%B7%E6%80%9D/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
