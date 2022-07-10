@@ -455,13 +455,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -484,6 +477,13 @@
   
   <url>
     <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -602,6 +602,13 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/%E5%B0%8F%E7%B1%B3/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -616,14 +623,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <loc>https://kangblogs.top/tags/Hadoop/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Hadoop/</loc>
+    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -638,13 +645,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/Linux/</loc>
-    <lastmod>2022-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
     <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
