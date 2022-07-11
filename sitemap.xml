@@ -504,14 +504,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Chart-js/</loc>
+    <loc>https://kangblogs.top/tags/Vercel/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Vercel/</loc>
+    <loc>https://kangblogs.top/tags/Chart-js/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -574,13 +574,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
-    <lastmod>2022-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/tags/%E6%99%BA%E6%85%A7/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -588,7 +581,7 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <loc>https://kangblogs.top/tags/%E9%AB%98%E9%80%9A/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -596,6 +589,13 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E8%BD%A6%E8%81%94%E7%BD%91/</loc>
+    <lastmod>2022-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -616,7 +616,7 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/%E9%AB%98%E9%80%9A/</loc>
+    <loc>https://kangblogs.top/tags/%E5%8D%8E%E4%B8%BA/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -644,13 +644,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
-    <lastmod>2022-07-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -666,6 +659,13 @@
   
   <url>
     <loc>https://kangblogs.top/tags/Mint/</loc>
+    <lastmod>2022-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
