@@ -464,20 +464,6 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Java/</loc>
-    <lastmod>2022-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
-    <lastmod>2022-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kangblogs.top/tags/%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -486,6 +472,20 @@
   
   <url>
     <loc>https://kangblogs.top/tags/%E5%A3%81%E7%BA%B8/</loc>
+    <lastmod>2022-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/Java/</loc>
+    <lastmod>2022-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kangblogs.top/tags/IO%E6%B5%81/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -513,14 +513,14 @@
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Chart-js/</loc>
+    <loc>https://kangblogs.top/tags/Vercel/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kangblogs.top/tags/Vercel/</loc>
+    <loc>https://kangblogs.top/tags/Chart-js/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -646,6 +646,13 @@
   </url>
   
   <url>
+    <loc>https://kangblogs.top/tags/ZooKeeper/</loc>
+    <lastmod>2022-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kangblogs.top/tags/Linux/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -654,13 +661,6 @@
   
   <url>
     <loc>https://kangblogs.top/tags/VMware-WorkStation/</loc>
-    <lastmod>2022-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kangblogs.top/tags/ZooKeeper/</loc>
     <lastmod>2022-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
